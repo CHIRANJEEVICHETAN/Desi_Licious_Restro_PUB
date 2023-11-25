@@ -78,6 +78,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Sofia"
     />
+    <!-- Latest compiled and minified CSS -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
   </head>
 
   <body>
@@ -171,17 +173,37 @@
 
     <!-- main section  -->
     <section id="hero" class="d-flex align-items-center">
-      <div
-        class="container position-relative text-center text-lg-start"
+      <!-- <div
+        class="container-fluid position-relative text-center text-lg-start"
         data-aos="zoom-in"
         data-aos-delay="100"
-      >
-        
-      </div>
+      > -->
+    <div class="container-fluid position-relative text-center text-lg-start mt-5">
+    <h1 class="main-text text-center">Our Branches</h1>
+    <div class="row mt-5">
+    <div class="col-sm-3 border border-secondary rounded">
+      <p class="text-center">Bannerghatta, Bangalore</p>
+      <img src="{% static '/assets/img/branches/bannerghatta.jpg' %}" class="img-responsive rounded-circle" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3 border border-secondary rounded"> 
+      <p class="text-center">Electronic City, Bangalore</p>
+      <img src="{% static '/assets/img/branches/electronic-city.jpg' %}" class="img-responsive rounded-circle" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    </div>
     </section>
+      <!-- </div>
+    </div> -->
     <!-- End Hero -->
-
-
+    <!-- main section  -->
+    
 
     <!-- main section end  -->
     <!-- ======= Footer ======= -->
@@ -337,5 +359,10 @@
       type="text/javascript"
       src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
     ></script>
+    <!-- jQuery library -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+
+<!-- Latest compiled JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
   </body>
 </html>
