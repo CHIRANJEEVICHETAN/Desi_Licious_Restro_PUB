@@ -78,7 +78,12 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Sofia"
     />
-    
+  <!-- BEGIN SHAREAHOLIC CODE -->
+<link rel="preload" href="https://cdn.shareaholic.net/assets/pub/shareaholic.js" as="script" />
+<meta name="shareaholic:site_id" content="53d53b29a349c07561efaa1c1433061d" />
+<script data-cfasync="false" async src="https://cdn.shareaholic.net/assets/pub/shareaholic.js"></script>
+<!-- END SHAREAHOLIC CODE -->
+
   </head>
 
   <body>
@@ -138,6 +143,14 @@
               ></a>
               <ul>
                 <li><a href="#our-services">Our Services</a></li>
+                <li class="dropdown"><a href="#"><span>Pages</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Offers</a></li>
+                  <li><a href="#">Carrers</a></li>
+                  <li><a href="#">News & events</a></li>
+                  <li><a href="#">Our Beers</a></li>
+                </ul>
+              </li>
                 <li><a href="#useful-links">Useful Links</a></li>
                 <li><a href="#social-links-id">Social Links</a></li>
                 <li>
@@ -145,7 +158,7 @@
                     >Subscribe to our Newsletter</a
                   >
                 </li>
-                <li><a href="#">Our Branches</a></li>
+                <li><a href="ourBranches">Our Branches</a></li>
               </ul>
             </li>
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -282,13 +295,9 @@
             <div class="col-lg-4">
               <div class="box" data-aos="zoom-in" data-aos-delay="100">
                 <span>01</span>
-                <h4>Arav Patel</h4>
+                <h4>Culinary World Tour Specials</h4>
                 <p>
-                  Enjoyed a delightful experience at Desi-licious Restaurant,
-                  savoring authentic Indian flavors like aromatic biryani and
-                  mouthwatering butter chicken. The warm ambiance and attentive
-                  staff make it a must-visit for an authentic desi culinary
-                  adventure.
+                  Unleash your taste buds with our monthly "Culinary World Tour Specials" at Desi-licious Restro-Pub. Experience a global gastronomic journey featuring authentic dishes from different corners of the world. Join us each month for a limited-time menu that brings the flavors of North India, Japan, and more to your table.
                 </p>
               </div>
             </div>
@@ -296,13 +305,9 @@
             <div class="col-lg-4 mt-4 mt-lg-0">
               <div class="box" data-aos="zoom-in" data-aos-delay="200">
                 <span>02</span>
-                <h4>Priya sharma</h4>
+                <h4>Chef's Signature Tasting Menu</h4>
                 <p>
-                  Fantastic dining experience at Desi-licious Restaurant. The
-                  menu showcased a diverse array of flavorful Indian dishes,
-                  each prepared with precision and authenticity. The cozy
-                  atmosphere and friendly staff enhanced the overall enjoyment
-                  of the meal.
+                  Elevate your dining experience with our "Chef's Signature Tasting Menu" at Desi-licious Restro-Pub. Immerse yourself in a curated selection of our chef's finest creations, showcasing the pinnacle of culinary artistry. Indulge in a journey of flavors and textures that highlight the essence of our diverse menu.
                 </p>
               </div>
             </div>
@@ -310,13 +315,9 @@
             <div class="col-lg-4 mt-4 mt-lg-0">
               <div class="box" data-aos="zoom-in" data-aos-delay="300">
                 <span>03</span>
-                <h4>Rohan Kapoor</h4>
+                <h4>Weekend Extravaganza</h4>
                 <p>
-                  Desi-licious Restaurant exceeded my expectations with its
-                  delicious Indian cuisine. The tantalizing aroma of spices,
-                  especially in the chicken tikka, made the dining experience
-                  memorable. The staff's friendliness and prompt service added
-                  to the overall satisfaction.
+                  Join us for a culinary celebration every weekend at Desi-licious Restro-Pub! Our "Weekend Extravaganza" brings together an enticing array of dishes, from savory appetizers to delightful desserts. Elevate your weekends with an explosion of flavors and a lively ambiance that makes every bite a celebration.
                 </p>
               </div>
             </div>
@@ -1101,25 +1102,17 @@
                 <div class="tab-pane active show" id="tab-1">
                   <div class="row">
                     <div class="col-lg-8 details order-2 order-lg-1">
-                      <h3>
-                        Dum Biryani is a traditional and flavorful Indian dish
-                      </h3>
+                      <h3>Dum Biryani is a traditional and flavorful Indian dish</h3>
                       <p class="fst-italic">
-                        fragrant, long-grain basmati rice combined with
-                        marinated meat, aromatic spices, and herbs.
+                        fragrant, long-grain basmati rice combined with marinated meat, aromatic spices, and herbs. 
                       </p>
                       <p>
-                        The dish is cooked in a sealed pot or "dum"
-                        (slow-cooking method), allowing the ingredients to meld
-                        together and absorb the rich flavors. Often garnished
-                        with fried onions, mint, and saffron, Dum Biryani offers
-                        a delectable symphony of tastes and textures in every
-                        mouthful.
+                        The dish is cooked in a sealed pot or "dum" (slow-cooking method), allowing the ingredients to meld together and absorb the rich flavors. Often garnished with fried onions, mint, and saffron, Dum Biryani offers a delectable symphony of tastes and textures in every mouthful.
                       </p>
                     </div>
                     <div class="col-lg-4 text-center order-1 order-lg-2">
                       <img
-                        src="{% static 'assets/img/specials_1.png' %}"
+                        src="{% static 'assets/img/specials1.png' %}"
                         alt=""
                         class="img-fluid"
                       />
@@ -1129,26 +1122,17 @@
                 <div class="tab-pane" id="tab-2">
                   <div class="row">
                     <div class="col-lg-8 details order-2 order-lg-1">
-                      <h3>
-                        Chicken Tikka Masala is a popular and flavorful dish
-                      </h3>
+                      <h3>Chicken Tikka Masala is a popular and flavorful dish</h3>
                       <p class="fst-italic">
-                        Chicken Tikka Masala features marinated and grilled
-                        chunks of chicken (chicken tikka) served in a creamy and
-                        spiced tomato-based curry sauce (masala).
+                        Chicken Tikka Masala features marinated and grilled chunks of chicken (chicken tikka) served in a creamy and spiced tomato-based curry sauce (masala).
                       </p>
                       <p>
-                        The chicken is typically marinated in a mixture of
-                        yogurt and various spices, giving it a rich and aromatic
-                        flavor. The curry sauce is made with tomatoes, cream,
-                        and a blend of spices, creating a creamy and mildly
-                        spiced dish. It is often garnished with fresh cilantro
-                        and served with rice or naan bread.
+                        The chicken is typically marinated in a mixture of yogurt and various spices, giving it a rich and aromatic flavor. The curry sauce is made with tomatoes, cream, and a blend of spices, creating a creamy and mildly spiced dish. It is often garnished with fresh cilantro and served with rice or naan bread.
                       </p>
                     </div>
                     <div class="col-lg-4 text-center order-1 order-lg-2">
                       <img
-                        src="{% static 'assets/img/specials_2.png' %}"
+                        src="{% static 'assets/img/specials2.png' %}"
                         alt=""
                         class="img-fluid"
                       />
@@ -1158,23 +1142,17 @@
                 <div class="tab-pane" id="tab-3">
                   <div class="row">
                     <div class="col-lg-8 details order-2 order-lg-1">
-                      <h3>Chawanmushi is a traditional Japanese dish</h3>
+                      <h3>Chawanmushi is a traditional Japanese dish </h3>
                       <p class="fst-italic">
-                        Chawanmushi is a delicate and silky custard made from a
-                        mixture of beaten eggs, dashi (Japanese broth), soy
-                        sauce, and mirin (sweet rice wine)
+                        Chawanmushi is a delicate and silky custard made from a mixture of beaten eggs, dashi (Japanese broth), soy sauce, and mirin (sweet rice wine)
                       </p>
                       <p>
-                        The custard is then filled with a variety of
-                        ingredients, often including diced chicken, shrimp,
-                        mushrooms, kamaboko (fish cake), and ginkgo nuts. The
-                        entire mixture is steamed until it sets, resulting in a
-                        smooth and velvety texture.
+                        The custard is then filled with a variety of ingredients, often including diced chicken, shrimp, mushrooms, kamaboko (fish cake), and ginkgo nuts. The entire mixture is steamed until it sets, resulting in a smooth and velvety texture.
                       </p>
                     </div>
                     <div class="col-lg-4 text-center order-1 order-lg-2">
                       <img
-                        src="{% static 'assets/img/specials_3.png' %}"
+                      src="{% static 'assets/img/specials3.png' %}"
                         alt=""
                         class="img-fluid"
                       />
@@ -1184,23 +1162,20 @@
                 <div class="tab-pane" id="tab-4">
                   <div class="row">
                     <div class="col-lg-8 details order-2 order-lg-1">
-                      <h3>Panna Cotta is a classic Italian dessert</h3>
+                      <h3>
+                        
+                        Panna Cotta is a classic Italian dessert 
+                      </h3>
                       <p class="fst-italic">
-                        Panna Cotta, which translates to "cooked cream" in
-                        Italian, is a chilled dessert made by simmering together
-                        cream, milk, sugar, and vanilla, and then mixing it with
-                        gelatin to set.
+                        Panna Cotta, which translates to "cooked cream" in Italian, is a chilled dessert made by simmering together cream, milk, sugar, and vanilla, and then mixing it with gelatin to set.
                       </p>
                       <p>
-                        The mixture is poured into molds and refrigerated until
-                        it achieves a delicate, silky consistency. It is often
-                        served with a fruit coulis, caramel sauce, or fresh
-                        berries.
+                        The mixture is poured into molds and refrigerated until it achieves a delicate, silky consistency. It is often served with a fruit coulis, caramel sauce, or fresh berries.
                       </p>
                     </div>
                     <div class="col-lg-4 text-center order-1 order-lg-2">
                       <img
-                        src="{% static 'assets/img/specials_4.png' %}"
+                      src="{% static 'assets/img/specials4.png' %}"
                         alt=""
                         class="img-fluid"
                       />
@@ -1214,22 +1189,15 @@
                         Yangzhou Fried Rice, also known as Yang Chow Fried Rice
                       </h3>
                       <p class="fst-italic">
-                        Yangzhou Fried Rice typically consists of fluffy steamed
-                        rice stir-fried with a variety of ingredients to create
-                        a delicious and visually appealing dish
+                        Yangzhou Fried Rice typically consists of fluffy steamed rice stir-fried with a variety of ingredients to create a delicious and visually appealing dish
                       </p>
                       <p>
-                        The key ingredients often include diced vegetables, such
-                        as carrots, peas, and corn, along with protein sources
-                        like diced ham, shrimp, or chicken. The rice is seasoned
-                        with soy sauce and sometimes oyster sauce for added
-                        depth of flavor. The dish is usually garnished with
-                        green onions for a fresh finish.
+                        The key ingredients often include diced vegetables, such as carrots, peas, and corn, along with protein sources like diced ham, shrimp, or chicken. The rice is seasoned with soy sauce and sometimes oyster sauce for added depth of flavor. The dish is usually garnished with green onions for a fresh finish.
                       </p>
                     </div>
                     <div class="col-lg-4 text-center order-1 order-lg-2">
                       <img
-                        src="{% static 'assets/img/specials_5.png' %}"
+                      src="{% static 'assets/img/specials5.png' %}"
                         alt=""
                         class="img-fluid"
                       />
@@ -1371,6 +1339,7 @@
           </div>
 
           <form
+          action="/"
             method="post"
             role="form"
             class="php-email-form"
@@ -1478,7 +1447,7 @@
       <!-- End Book A Table Section -->
 
       <!-- ======= Testimonials Section ======= -->
-      <section id="testimonials" class="testimonials section-bg">
+           <section id="testimonials" class="testimonials section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Testimonials</h2>
@@ -1495,10 +1464,7 @@
                 <div class="testimonial-item">
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Proin iaculis purus consequat sem cure digni ssim donec
-                    porttitora entum suscipit rhoncus. Accusantium quam,
-                    ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                    risus at semper.
+                    culinary gem that seamlessly fuses the best of Indian, Italian, Japanese, and Chinese cuisine. Customers rave about the masterful fusion creations, inviting ambiance, and attentive service. A must-visit for those seeking a diverse and delightful dining experience!
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                   <img
@@ -1516,10 +1482,7 @@
                 <div class="testimonial-item">
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse
-                    labore quem cillum quid cillum eram malis quorum velit fore
-                    eram velit sunt aliqua noster fugiat irure amet legam anim
-                    culpa.
+                    Journey is a celebration of flavors from India, Italy, Japan, and China. Customers love the impeccable quality of ingredients, the inventive fusion dishes, and the warm, inviting atmosphere. It's more than a restaurant; it's a tasteful fusion experience
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                   <img
@@ -1537,9 +1500,7 @@
                 <div class="testimonial-item">
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Enim nisi quem export duis labore cillum quae magna enim
-                    sint quorum nulla quem veniam duis minim tempor labore quem
-                    eram duis noster aute amet eram fore quis sint minim.
+                    Restaurant is a gastronomic delight, skillfully blending the vibrant tastes of Indian, Italian, Japanese, and Chinese cuisines. Patrons praise the diverse menu, top-notch service, and the perfect harmony of flavors. For an unforgettable fusion experience, Desi-licious is the go-to destination.
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                   <img
@@ -1557,10 +1518,7 @@
                 <div class="testimonial-item">
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa
-                    multos export minim fugiat minim velit minim dolor enim duis
-                    veniam ipsum anim magna sunt elit fore quem dolore labore
-                    illum veniam.
+                    The venue's vibrant ambiance and versatile spaces set the stage for memorable parties. Guests love the unique fusion menu, crafted cocktails, and the seamless coordination by the attentive staff. Desi-licious is our go-to for turning any gathering into a flavorful fiesta!.
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                   <img
@@ -1578,10 +1536,7 @@
                 <div class="testimonial-item">
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Quis quorum aliqua sint quem legam fore sunt eram irure
-                    aliqua veniam tempor noster veniam enim culpa labore duis
-                    sunt culpa nulla illum cillum fugiat legam esse veniam culpa
-                    fore nisi cillum quid.
+                    I applaud Desi-licious Restaurant for offering a unique culinary concept that caters to diverse palates. The fusion of Indian, Italian, Japanese, and Chinese cuisines not only reflects innovation but also captures the essence of global tastes. The restaurant's attention to quality.
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                   <img
@@ -1610,7 +1565,7 @@
           </div>
         </div>
 
-        <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+        <div class="container-fluid gallery-images" data-aos="fade-up" data-aos-delay="100">
           <div class="row g-0">
             <div class="col-lg-3 col-md-4">
               <div class="gallery-item">
@@ -1885,16 +1840,17 @@
 
             <div class="col-lg-8 mt-5 mt-lg-0">
               <form
-                action="forms/contact.php"
+                action="/"
                 method="post"
                 role="form"
                 class="php-email-form"
               >
+              {% csrf_token %}
                 <div class="row">
                   <div class="col-md-6 form-group">
                     <input
                       type="text"
-                      name="name"
+                      name="ContactName"
                       class="form-control"
                       id="name"
                       placeholder="Your Name"
@@ -1905,7 +1861,7 @@
                     <input
                       type="email"
                       class="form-control"
-                      name="email"
+                      name="ContactEmail"
                       id="email"
                       placeholder="Your Email"
                       required
@@ -1925,7 +1881,7 @@
                 <div class="form-group mt-3">
                   <textarea
                     class="form-control"
-                    name="message"
+                    name="ContactMessage"
                     rows="8"
                     placeholder="Message"
                     required
@@ -2041,16 +1997,17 @@
                 Subscribe to our newsletter for exclusive updates, offers, and
                 news. Join now!
               </p>
-              <form action="" method="post">
+              <form action="/" method="post">
                 {% csrf_token %}
-                <input type="email" name="email" /><input
+                <input type="email" name="subEmail" /><input
                   type="submit"
                   value="Subscribe"
                 />
               </form>
               <div id="translate" class="translate-google">
                 <div id="google_translate_element"></div>
-              </div>
+              </div><br>
+              <div class="shareaholic-canvas" data-app="share_buttons" data-app-id="33158720"></div>
             </div>
           </div>
         </div>
@@ -2062,13 +2019,10 @@
           >. All Rights Reserved
         </div>
         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
           <span style="text-align: center;">Designed by: <span style="color: yellow;"> Sneha A, Sowjanya H R, Chetan B R</span></span>
           </ul>
-        </div>
+        </div> <br><br>
+        <div class="shareaholic-canvas" data-app="share_buttons" data-app-id="33158729"></div>
       </div>
     </footer>
     <!-- End Footer -->
