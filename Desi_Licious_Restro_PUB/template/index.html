@@ -1,0 +1,2053 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>DESI-LICIOUS RESTRO-PUB</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="{% static 'assets/img/favicon/apple-touch-icon.png' %}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="{% static 'assets/img/favicon/favicon-32x32.png' %}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="{% static 'assets/img/favicon/favicon-16x16.png' %}"
+    />
+    <link
+      rel="manifest"
+      href="{% static 'assets/img/favicon/site.webmanifest' %}"
+    />
+    <link
+      rel="shortcut icon"
+      href="{% static 'assets/img/favicon/favicon.ico' %}"
+      type="image/x-icon"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="{% static 'assets/vendor/animate.css/animate.min.css' %}"
+      rel="stylesheet"
+    />
+    <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet" />
+    <link
+      href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}"
+      rel="stylesheet"
+    />
+    <link
+      href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}"
+      rel="stylesheet"
+    />
+    <link
+      href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}"
+      rel="stylesheet"
+    />
+    <link
+      href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}"
+      rel="stylesheet"
+    />
+    <link
+      href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}"
+      rel="stylesheet"
+    />
+
+    <!-- Template Main CSS File -->
+    <link href="{% static 'assets/css/style.css' %}" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+  </head>
+
+  <body>
+    <!-- ======= Top Bar ======= -->
+    <div id="topbar" class="d-flex align-items-center fixed-top">
+      <div
+        class="container d-flex justify-content-center justify-content-md-between"
+      >
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-phone d-flex align-items-center"
+            ><span>+91 6363451047</span></i
+          >
+          <i class="bi bi-clock d-flex align-items-center ms-4"
+            ><span> Mon-Sat: 9:00AM - 11:00PM</span></i
+          >
+        </div>
+
+        <div class="languages d-none d-md-flex align-items-center">
+          <ul>
+            <li><a href="#translate">En</a></li>
+            <li><a href="#translate">Kn</a></li>
+            <li><a href="#translate">Hn</a></li>
+          </ul>
+        </div>
+        <!-- <div id="google_translate_element"></div> -->
+      </div>
+    </div>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-cente">
+      <a class="logo-top" href="index"
+        ><img
+          src="{% static '/assets/img/Desi-Licious-removebg.png' %}"
+          alt="logo"
+      /></a>
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-lg-between"
+      >
+        <h1 class="logo me-auto me-lg-0 head-name">
+          <a href="index">DESI-LICIOUS</a>
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index" class="logo me-auto me-lg-0"><img src="assets/img/logo.jpg" alt="" class="img-fluid"></a> -->
+
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a class="nav-link scrollto active" href="index">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
+            <li><a class="nav-link scrollto" href="#specials">Specials</a></li>
+            <li><a class="nav-link scrollto" href="#events">Events</a></li>
+            <li><a class="nav-link scrollto" href="#chefs">Chefs</a></li>
+            <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>More</span> <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li><a href="#our-services">Our Services</a></li>
+                <li><a href="#useful-links">Useful Links</a></li>
+                <li><a href="#social-links-id">Social Links</a></li>
+                <li>
+                  <a href="#subscribe-newsletter"
+                    >Subscribe to our Newsletter</a
+                  >
+                </li>
+                <li><a href="#">Our Branches</a></li>
+              </ul>
+            </li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+        <a
+          href="#book-a-table"
+          class="book-a-table-btn scrollto d-none d-lg-flex"
+          >Book a table</a
+        >
+        <div class="register-btn">
+          <a class="login-register-btn btn-1" target="_blank" href="login"
+            ><button type="button">Login</button></a
+          >
+          <a class="login-register-btn btn-2" target="_blank" href="signup"
+            ><button type="button">Register</button></a
+          >
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+      <div
+        class="container position-relative text-center text-lg-start"
+        data-aos="zoom-in"
+        data-aos-delay="100"
+      >
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="hero-logo">
+              <a href="index"
+                ><img
+                  src="{% static '/assets/img/Chef-logo.png' %}"
+                  width="330px"
+                  alt="logo"
+              /></a>
+            </div>
+            <h1>Welcome to <span>DESI-LICIOUS Cafe</span></h1>
+            <h2>Delivering great food for more than 18 years!</h2>
+
+            <div class="btns">
+              <a href="#menu" class="btn-menu animated fadeInUp scrollto"
+                >Our Menu</a
+              >
+              <a
+                href="#book-a-table"
+                class="btn-book animated fadeInUp scrollto"
+                >Book a Table</a
+              >
+            </div>
+          </div>
+          <div
+            class="col-lg-4 d-flex align-items-center justify-content-center position-relative"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <a
+              href="https://www.youtube.com/watch?v=GlrxcuEDyF8"
+              class="glightbox play-btn"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div
+              class="col-lg-6 order-1 order-lg-2"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="about-img">
+                <img src="{% static 'assets/img/about.jpg' %}" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <h3>
+                Welcome to Desi-licious Restro-Pub: Your Passport to a World of
+                Deliciousness!
+              </h3>
+              <p class="fst-italic">
+                Explore Desi-licious Restro-Pub, where South Indian, North
+                Indian, Chinese, Japanese, and Italian flavors blend in a modern
+                twist. Immerse yourself in a dining experience of traditional
+                authenticity and innovative delights.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check-circle"></i> Pan-Asian Fusion Delights:
+                  Explore a diverse menu, from the richness of North Indian
+                  classics to Japanese sushi and South Indian specialties.
+                </li>
+                <li>
+                  <i class="bi bi-check-circle"></i> Locally-Sourced Freshness:
+                  Experience farm-to-table freshness with locally-sourced
+                  ingredients.
+                </li>
+                <li>
+                  <i class="bi bi-check-circle"></i> Elegant Ambiance for Every
+                  Occasion: Our vibrant and elegant atmosphere is perfect for
+                  savoring dim sum, hearty curry, or handmade pasta.
+                </li>
+              </ul>
+              <p>
+                Embark on a global culinary journey at Desi-licious Restro-Pub,
+                where our chefs bring expertise from around the globe. From
+                South Indian dosas to Neapolitan pizzas, each dish is a
+                celebration of global gastronomy. The tantalizing aroma of North
+                Indian spices mixes with the umami notes of Japanese sushi,
+                creating a symphony of flavors. Join us for a delightful fusion
+                of global cuisines in an inviting ambiance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+
+      <!-- ======= Why Us Section ======= -->
+      <section id="why-us" class="why-us">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Why Us</h2>
+            <p>Why Choose Our Restaurant</p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="box" data-aos="zoom-in" data-aos-delay="100">
+                <span>01</span>
+                <h4>Culinary World Tour Specials</h4>
+                <p>
+                  Unleash your taste buds with our monthly "Culinary World Tour Specials" at Desi-licious Restro-Pub. Experience a global gastronomic journey featuring authentic dishes from different corners of the world. Join us each month for a limited-time menu that brings the flavors of North India, Japan, and more to your table.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mt-4 mt-lg-0">
+              <div class="box" data-aos="zoom-in" data-aos-delay="200">
+                <span>02</span>
+                <h4>Chef's Signature Tasting Menu</h4>
+                <p>
+                  Elevate your dining experience with our "Chef's Signature Tasting Menu" at Desi-licious Restro-Pub. Immerse yourself in a curated selection of our chef's finest creations, showcasing the pinnacle of culinary artistry. Indulge in a journey of flavors and textures that highlight the essence of our diverse menu.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mt-4 mt-lg-0">
+              <div class="box" data-aos="zoom-in" data-aos-delay="300">
+                <span>03</span>
+                <h4>Weekend Extravaganza</h4>
+                <p>
+                  Join us for a culinary celebration every weekend at Desi-licious Restro-Pub! Our "Weekend Extravaganza" brings together an enticing array of dishes, from savory appetizers to delightful desserts. Elevate your weekends with an explosion of flavors and a lively ambiance that makes every bite a celebration.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Why Us Section -->
+
+      <!-- ======= Menu Section ======= -->
+      <section id="menu" class="menu section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Menu</h2>
+            <p>Check Our Tasty Menu</p>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="menu-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-starters">Starters</li>
+                <li data-filter=".filter-salads">Salads</li>
+                <li data-filter=".filter-specialty">Specialty</li>
+                <li data-filter=".filter-deserts">Desserts</li>
+                <li data-filter=".filter-indian">Indian</li>
+                <li data-filter=".filter-chinese">Chinese</li>
+                <li data-filter=".filter-italian">Italian</li>
+                <li data-filter=".filter-japanese">Japanese</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="row menu-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="col-lg-6 menu-item filter-starters">
+              <img
+                src="{% static 'assets/img/menu/nuggets.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Nuggets</a><span>$8.3</span>
+              </div>
+              <div class="menu-ingredients">
+                crispy exterior and flavourfull,perfectly golden and delicious
+                they provide and delightfull aleternative to traditional chicken
+                nuggets
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-starters">
+              <img
+                src="{% static 'assets/img/menu/babycorn.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Babycorn Manchurian</a><span>$8.6</span>
+              </div>
+              <div class="menu-ingredients">
+                deep fried to a crisp golden perfection and tossed in a savory
+                and tangy manchurian sauce creating a delightful fusion of
+                textures and taste
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-starters">
+              <img
+                src="{% static 'assets/img/menu/toast.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Shrimp Toast</a><span>$8.6</span>
+              </div>
+              <div class="menu-ingredients">
+                Chinese appetizer featuring a flavorful blend of minced shrimp
+                and seasonings spread on bread, coated in sesame seeds, and
+                deep-fried to golden perfection
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img
+                src="{% static 'assets/img/menu/bread-barrel.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Bread Barrel</a><span>$6.95</span>
+              </div>
+              <div class="menu-ingredients">
+                charming and functional kitchen accessory, providing a stylish
+                storage solution for keeping bread and baked goods fresh while
+                adding a rustic touch to your countertop
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img
+                src="{% static 'assets/img/menu/miso.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Miso-Glazed Salmon Tacos:</a><span>$8</span>
+              </div>
+              <div class="menu-ingredients">
+                A fusion of Japanese and Mexican cuisines, with grilled
+                miso-glazed salmon served in taco shells, topped with cabbage
+                slaw and wasabi mayo.
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-starters">
+              <img
+                src="{% static 'assets/img/menu/cake.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Crab Cake</a><span>$7.95</span>
+              </div>
+              <div class="menu-ingredients">
+                A delicate crab cake served on a toasted roll with lettuce and
+                tartar sauce
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-salads">
+              <img
+                src="{% static 'assets/img/menu/caesar.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Caesar Selections</a><span>$8</span>
+              </div>
+              <div class="menu-ingredients">
+                crisp romaine lettuce, garlic-infused croutons, tangy Caesar
+                dressing, and grated Parmesan cheese, creating the classic and
+                timeless Caesar salad experience
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img
+                src="{% static 'assets/img/menu/tuscan-grilled.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Tuscan Grilled</a><span>$9.95</span>
+              </div>
+              <div class="menu-ingredients">
+                Grilled chicken with provolone, artichoke hearts, and roasted
+                red pesto
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img
+                src="{% static 'assets/img/menu/chick.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Chicken Tikka Pizza</a><span>$12</span>
+              </div>
+              <div class="menu-ingredients">
+                Infusing Indian spices into an Italian classic, this pizza
+                features tender chicken tikka pieces, creamy tikka sauce, and
+                traditional pizza toppings.
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-starters">
+              <img
+                src="{% static 'assets/img/menu/mozzarella.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Mozzarella Stick</a><span>$4.95</span>
+              </div>
+              <div class="menu-ingredients">
+                golden-fried appetizers featuring strings of gooey mozzarella
+                cheese encased in a crisp and seasoned breadcrumb coating,
+                served with marinara sauce for a delightful combination of
+                textures and flavors
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-starters">
+              <img
+                src="{% static 'assets/img/menu/caponata.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Caponata</a><span>$4.95</span>
+              </div>
+              <div class="menu-ingredients">
+                Sicilian eggplant dish featuring a sweet and sour flavor profile
+                with tomatoes, olives, and capers
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-salads">
+              <img
+                src="{% static 'assets/img/menu/greek-salad.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Greek Salad</a><span>$7.1</span>
+              </div>
+              <div class="menu-ingredients">
+                Refreshing Mediterranean classic featuring crisp cucumbers,
+                juicy tomatoes, briny olives, tangy feta cheese, and red onions,
+                drizzled with extra virgin olive oil and sprinkled with oregano
+                for a burst of vibrant flavors
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-salads">
+              <img
+                src="{% static 'assets/img/menu/kachumbar.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">kachumbar Salad</a><span>$10</span>
+              </div>
+              <div class="menu-ingredients">
+                A light and refreshing Indian salad made with diced cucumbers,
+                tomatoes, onions, and fresh coriander, typically seasoned with
+                salt, pepper, and a squeeze of lemon juice.
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-salads">
+              <img
+                src="{% static 'assets/img/menu/spinach-salad.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Spinach Salad</a><span>$7</span>
+              </div>
+              <div class="menu-ingredients">
+                Fresh spinach with mushrooms, hard boiled egg, and warm bacon
+                vinaigrette
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-salads">
+              <img
+                src="{% static 'assets/img/menu/sea.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Seaweed Salad</a><span>$7.1</span>
+              </div>
+              <div class="menu-ingredients">
+                Made from various types of edible seaweed, this salad is often
+                seasoned with soy sauce, sesame oil, and sesame seeds, providing
+                a refreshing and umami-rich experience.
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-salads">
+              <img
+                src="{% static 'assets/img/menu/tri.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Tricolore Salad</a><span>6</span>
+              </div>
+              <div class="menu-ingredients">
+                vibrant Italian classic, combining the luscious trio of avocado,
+                ripe tomatoes, and fresh mozzarella, drizzled with pesto for a
+                colorful and flavorful celebration reminiscent of the Italian
+                flag.
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-indian">
+              <img
+                src="{% static 'assets/img/menu/idli.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Idli</a><span>$7.95</span>
+              </div>
+              <div class="menu-ingredients">
+                fermented rice and urad dal batter, steamed to perfection,
+                resulting in soft, spongy, and nutritious rice cakes, often
+                served with coconut chutney and sambar.
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-indian">
+              <img
+                src="{% static 'assets/img/menu/alo gobi.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Alo gobi</a><span>$6.9</span>
+              </div>
+              <div class="menu-ingredients">
+                North Indian dish featuring a comforting blend of potatoes
+                (aloo) and cauliflower (gobi) sautéed with aromatic spices,
+                creating a flavorful and wholesome vegetarian curry.
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-indian">
+              <img
+                src="{% static 'assets/img/menu/masaladose.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Masala Dosa</a><span>$8.9</span>
+              </div>
+              <div class="menu-ingredients">
+                South Indian delicacy featuring a crispy fermented rice and urad
+                dal crepe filled with a spiced potato mixture, typically served
+                with coconut chutney and sambar.
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-indian">
+              <img
+                src="{% static 'assets/img/menu/chole.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Chole bhature</a><span>$6.59</span>
+              </div>
+              <div class="menu-ingredients">
+                North Indian dish featuring spiced chickpeas (chole) served with
+                deep-fried bread (bhature), creating a flavorful and satisfying
+                combination
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-indian">
+              <img
+                src="{% static 'assets/img/menu/pongal.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Pongal</a><span>$5</span>
+              </div>
+              <div class="menu-ingredients">
+                dish made from a delightful blend of rice and split yellow moong
+                dal, seasoned with ghee, black pepper, cumin seeds, ginger, and
+                garnished with cashews, creating a comforting and flavorful
+                dish.
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-indian">
+              <img
+                src="{% static 'assets/img/menu/paneer.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Paneer Butter Masala</a><span>$9</span>
+              </div>
+              <div class="menu-ingredients">
+                dish featuring cubes of Indian cottage cheese (paneer) cooked in
+                a rich and creamy tomato-based gravy, seasoned with aromatic
+                spices and finished with a touch of butter.
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-indian">
+              <img
+                src="{% static 'assets/img/menu/bisibele.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Bisibele Bath</a><span>$7.8</span>
+              </div>
+              <div class="menu-ingredients">
+                dish made with a unique blend of rice, lentils, vegetables, and
+                aromatic spices, all cooked together to create a delicious and
+                satisfying one-pot meal.
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-indian">
+              <img
+                src="{% static 'assets/img/menu/naan.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Butter Naan</a><span>$6</span>
+              </div>
+              <div class="menu-ingredients">
+                soft and fluffy Indian flatbread, typically leavened and
+                enriched with yogurt, ghee, and butter, offering a deliciously
+                tender texture and a rich, buttery flavor.
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-chinese">
+              <img
+                src="{% static 'assets/img/menu/egg(chinese).jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Egg rice</a><span>$8</span>
+              </div>
+              <div class="menu-ingredients">
+                savory Chinese dish made with stir-fried rice, scrambled eggs,
+                and a flavorful combination of vegetables and soy sauce.
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-chinese">
+              <img
+                src="{% static 'assets/img/menu/springroll(chinese).jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Spring roll</a><span>$8</span>
+              </div>
+              <div class="menu-ingredients">
+                crispy, golden-brown delights, featuring a delicate rice paper
+                or wheat wrapper filled with a savory combination of shrimp or
+                pork, crunchy vegetables, and sometimes vermicelli noodles,
+                offering a delightful blend of textures and flavors.
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-chinese">
+              <img
+                src="{% static 'assets/img/menu/chowmein(chin).jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Chowmein</a><span>$8.5</span>
+              </div>
+              <div class="menu-ingredients">
+                stir-fried noodle dish featuring thin egg noodles tossed with a
+                flavorful mix of vegetables, such as cabbage and carrots, and
+                often combined with a protein like chicken, beef, or shrimp.
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-chinese">
+              <img
+                src="{% static 'assets/img/menu/kungpao(chinese).jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#"> Kungpao</a><span>$8</span>
+              </div>
+              <div class="menu-ingredients">
+                featuring tender chicken, crunchy peanuts, and vibrant
+                vegetables stir-fried in a flavorful blend of soy sauce, hoisin
+                sauce, and chili peppers, delivering a perfect balance of sweet,
+                savory, and spicy notes.
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-chinese">
+              <img
+                src="{% static 'assets/img/menu/tofu(chinese).jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Tofu</a><span>$8</span>
+              </div>
+              <div class="menu-ingredients">
+                featuring soft tofu cubes in a spicy and numbing sauce,
+                traditionally made with minced pork, fermented black beans,
+                chili bean paste, and Sichuan peppercorns.
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-italian">
+              <img
+                src="{% static 'assets/img/menu/pizza(italian).jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Pizza</a><span>$9.95</span>
+              </div>
+              <div class="menu-ingredients">
+                dish characterized by a thin, crispy crust, topped with tomato
+                sauce, fresh mozzarella cheese, and a variety of toppings, baked
+                to perfection in a wood-fired oven
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-italian">
+              <img
+                src="{% static 'assets/img/menu/pasta(italian).jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Pasta</a><span>$15</span>
+              </div>
+              <div class="menu-ingredients">
+                featuring durum wheat semolina or alternative flours crafted
+                into various shapes and sizes, commonly served with an array of
+                savory sauces, creating a diverse and beloved culinary
+                experience
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-italian">
+              <img
+                src="{% static 'assets/img/menu/risotto(italian).jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Risotto</a><span>$12</span>
+              </div>
+              <div class="menu-ingredients">
+                Fresh spinach with mushrooms, hard boiled egg, and warm bacon
+                vinaigrette
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-italian">
+              <img
+                src="{% static 'assets/img/menu/soup(italia).jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Minestrone Soup</a><span>$9.5</span>
+              </div>
+              <div class="menu-ingredients">
+                Thick soup of italian origin made with meats,vegetables ad pasta
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-italian">
+              <img
+                src="{% static 'assets/img/menu/salad(italian).jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#"> Summer farro Salad</a><span>$8</span>
+              </div>
+              <div class="menu-ingredients">
+                salad with a vibrant medley of seasonal vegetables, tossed in a
+                zesty vinaigrette.
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-italian">
+              <img
+                src="{% static 'assets/img/menu/calzone(italian).jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Calzone</a><span>$10</span>
+              </div>
+              <div class="menu-ingredients">
+                folded Italian pizza variant, resembling a stuffed turnover,
+                typically filled with cheese, meats, and vegetables
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-japanese">
+              <img
+                src="{% static 'assets/img/menu/sushi(japa).jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Sushi</a><span>$16</span>
+              </div>
+              <div class="menu-ingredients">
+                dish characterized by vinegared rice combined with various
+                ingredients such as seafood, vegetables, and occasionally
+                tropical fruits, often served with soy sauce and wasabi
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-japanese">
+              <img
+                src="{% static 'assets/img/menu/tonkatsu(japannese).jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Tonkatsu</a><span>$6</span>
+              </div>
+              <div class="menu-ingredients">
+                dish featuring breaded and deep-fried pork cutlet, typically
+                served with shredded cabbage and a tangy sauce
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-japanese">
+              <img
+                src="{% static 'assets/img/menu/misosoup(japanese).jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Miso soup</a><span>$10</span>
+              </div>
+              <div class="menu-ingredients">
+                soup characterized by its savory broth, made from fermented
+                soybean paste, and typically containing ingredients like
+                seaweed, tofu, and green onions
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-japanese">
+              <img
+                src="{% static 'assets/img/menu/ramen1(japanese).jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Ramen</a><span>$9.95</span>
+              </div>
+              <div class="menu-ingredients">
+                featuring Chinese-style wheat noodles served in a flavorful
+                broth, often accompanied by various toppings such as sliced
+                pork, seaweed, and green onions.
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-japanese">
+              <img
+                src="{% static 'assets/img/menu/sukiyaki(japanese).jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Sukiyaki</a><span>$9.95</span>
+              </div>
+              <div class="menu-ingredients">
+                Japanese hot pot dish featuring thinly sliced beef, tofu,
+                vegetables, and noodles cooked in a sweet and savory soy-based
+                broth at the table.
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-deserts">
+              <img
+                src="{% static 'assets/img/menu/apple.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Apple Pie</a><span>$9.95</span>
+              </div>
+              <div class="menu-ingredients">
+                dessert consisting of flaky pastry crust filled with sliced
+                apples, sugar, and spices, typically cinnamon, and often served
+                with a scoop of vanilla ice cream
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-deserts">
+              <img
+                src="{% static 'assets/img/menu/jamun.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Gulab-Jamun</a><span>$9.95</span>
+              </div>
+              <div class="menu-ingredients">
+                Gulab Jamun is a popular Indian sweet consisting of deep-fried
+                milk-solid dumplings soaked in a sugar syrup, creating a
+                delightful and indulgent dessert
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-deserts">
+              <img
+                src="{% static 'assets/img/menu/choco.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Chocolate Brownie</a><span>$10</span>
+              </div>
+              <div class="menu-ingredients">
+                small,square,chocolate cake which is soft in the middle,often
+                with pieces of chocolates or nuts in it.
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-deserts">
+              <img
+                src="{% static 'assets/img/menu/canno.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Cannoli</a><span>$9.95</span>
+              </div>
+              <div class="menu-ingredients">
+                A tube shaped italian dessert that consits of fried pastry dough
+                stuffed with sweet cream.
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-deserts">
+              <img
+                src="{% static 'assets/img/menu/mochi.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Mochi</a><span>$11</span>
+              </div>
+              <div class="menu-ingredients">
+                it is made of sweet glutinous rice flour or mochigome .Is often
+                tinted with green tea powder
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img
+                src="{% static 'assets/img/menu/lobster-roll.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Lobster Roll</a><span>$12.95</span>
+              </div>
+              <div class="menu-ingredients">
+                Plump lobster meat, mayo and crisp lettuce on a toasted bulky
+                roll
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Menu Section -->
+
+      <!-- ======= Specials Section ======= -->
+      <section id="specials" class="specials">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Specials</h2>
+            <p>Check Our Specials</p>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-3">
+              <ul class="nav nav-tabs flex-column">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active show"
+                    data-bs-toggle="tab"
+                    href="#tab-1"
+                    >Dum Biryani</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-2"
+                    >Chicken Tikka Masala</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-3"
+                    >Chawanmush</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-4"
+                    >Panna Cotta</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-5"
+                    >Yangzhou Fried Rice</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-9 mt-4 mt-lg-0">
+              <div class="tab-content">
+                <div class="tab-pane active show" id="tab-1">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Dum Biryani is a traditional and flavorful Indian dish</h3>
+                      <p class="fst-italic">
+                        fragrant, long-grain basmati rice combined with marinated meat, aromatic spices, and herbs. 
+                      </p>
+                      <p>
+                        The dish is cooked in a sealed pot or "dum" (slow-cooking method), allowing the ingredients to meld together and absorb the rich flavors. Often garnished with fried onions, mint, and saffron, Dum Biryani offers a delectable symphony of tastes and textures in every mouthful.
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                        src="{% static 'assets/img/specials1.png' %}"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-2">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Chicken Tikka Masala is a popular and flavorful dish</h3>
+                      <p class="fst-italic">
+                        Chicken Tikka Masala features marinated and grilled chunks of chicken (chicken tikka) served in a creamy and spiced tomato-based curry sauce (masala).
+                      </p>
+                      <p>
+                        The chicken is typically marinated in a mixture of yogurt and various spices, giving it a rich and aromatic flavor. The curry sauce is made with tomatoes, cream, and a blend of spices, creating a creamy and mildly spiced dish. It is often garnished with fresh cilantro and served with rice or naan bread.
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                        src="{% static 'assets/img/specials2.png' %}"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-3">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Chawanmushi is a traditional Japanese dish </h3>
+                      <p class="fst-italic">
+                        Chawanmushi is a delicate and silky custard made from a mixture of beaten eggs, dashi (Japanese broth), soy sauce, and mirin (sweet rice wine)
+                      </p>
+                      <p>
+                        The custard is then filled with a variety of ingredients, often including diced chicken, shrimp, mushrooms, kamaboko (fish cake), and ginkgo nuts. The entire mixture is steamed until it sets, resulting in a smooth and velvety texture.
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                      src="{% static 'assets/img/specials3.png' %}"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-4">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>
+                        
+                        Panna Cotta is a classic Italian dessert 
+                      </h3>
+                      <p class="fst-italic">
+                        Panna Cotta, which translates to "cooked cream" in Italian, is a chilled dessert made by simmering together cream, milk, sugar, and vanilla, and then mixing it with gelatin to set.
+                      </p>
+                      <p>
+                        The mixture is poured into molds and refrigerated until it achieves a delicate, silky consistency. It is often served with a fruit coulis, caramel sauce, or fresh berries.
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                      src="{% static 'assets/img/specials4.png' %}"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-5">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>
+                       
+                        Yangzhou Fried Rice, also known as Yang Chow Fried Rice
+                      </h3>
+                      <p class="fst-italic">
+                        Yangzhou Fried Rice typically consists of fluffy steamed rice stir-fried with a variety of ingredients to create a delicious and visually appealing dish
+                      </p>
+                      <p>
+                        The key ingredients often include diced vegetables, such as carrots, peas, and corn, along with protein sources like diced ham, shrimp, or chicken. The rice is seasoned with soy sauce and sometimes oyster sauce for added depth of flavor. The dish is usually garnished with green onions for a fresh finish.
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                      src="{% static 'assets/img/specials5.png' %}"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Specials Section -->
+
+      <!-- ======= Events Section ======= -->
+      <section id="events" class="events">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Events</h2>
+            <p>Organize Your Events in our Restaurant</p>
+          </div>
+
+          <div
+            class="events-slider swiper-container"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="row event-item">
+                  <div class="col-lg-6">
+                    <img
+                      src="{% static 'assets/img/event-birthday.jpg' %}"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3>Birthday Parties</h3>
+                    <div class="price">
+                      <p><span>$189</span></p>
+                    </div>
+                    <p class="fst-italic">
+                      Desi-licious Restaurant offers an ideal venue for birthday celebrations, combining authentic Indian cuisine with a festive atmosphere.
+                    </p>
+                    <ul>
+                      <li>
+                        <i class="bi bi-check-circled"></i>The restaurant provides a warm and inviting setting for gatherings, making it a great choice for hosting birthday parties
+                      </li>
+                      <li>
+                        <i class="bi bi-check-circled"></i> With a diverse menu featuring flavorful dishes, attentive staff, and a welcoming ambiance, Desi-licious ensures a memorable and enjoyable celebration for the birthday person and their guests. 
+                      </li>
+                    <p>
+                      Whether you're planning an intimate gathering or a larger party, the restaurant's commitment to authentic flavors and hospitality creates a festive environment that enhances the joy of the occasion.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="row event-item">
+                  <div class="col-lg-6">
+                    <img
+                      src="{% static 'assets/img/event-private.jpg' %}"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3>Private Parties</h3>
+                    <div class="price">
+                      <p><span>$290</span></p>
+                    </div>
+                    <p class="fst-italic">
+                      
+                     Desi-licious Restaurant offers an excellent venue for private parties. The cozy and vibrant atmosphere provides an ideal setting for gatherings, celebrations, and special occasions.
+                    </p>
+                    <ul>
+                      <li>
+                        <i class="bi bi-check-circled"></i>With a diverse menu of authentic Indian cuisine and attentive staff, the restaurant ensures a memorable experience for private events.
+                      </li>
+                      
+                      
+                    </ul>
+                    <p>
+                      Whether it's a birthday celebration, anniversary, or corporate gathering, Desi-licious provides a charming and accommodating space to host your private party, making it a perfect choice for those looking to add a touch of flavor and warmth to their special moments.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="row event-item">
+                  <div class="col-lg-6">
+                    <img
+                      src="{% static 'assets/img/event-custom.jpg' %}"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3>Custom Parties</h3>
+                    <div class="price">
+                      <p><span>$99</span></p>
+                    </div>
+                    <p class="fst-italic">
+                      
+                     Desi-licious Restaurant offers an exceptional experience for custom parties, providing a perfect blend of vibrant ambiance and personalized service
+                    </p>
+                    <ul>
+                      <li>
+                        <i class="bi bi-check-circled"></i> Whether it's a birthday celebration, corporate event, or any special occasion, the restaurant caters to diverse preferences with a tailored menu featuring a variety of authentic Indian dishes. 
+                      </li>
+                      <li>
+                        <i class="bi bi-check-circled"></i> The dedicated staff ensures seamless execution, from customized decorations to accommodating specific dietary preferences
+                      </li>
+                    </ul>
+                    <p>
+                      With its warm atmosphere and flavorful cuisine, Desi-licious Restaurant creates memorable moments for every special gathering, making it an ideal choice for those looking to celebrate in a uniquely desi style.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Events Section -->
+
+      <!-- ======= Book A Table Section ======= -->
+      <section id="book-a-table" class="book-a-table">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Reservation</h2>
+            <p>Book a Table</p>
+          </div>
+
+          <form
+          action="/"
+            method="post"
+            role="form"
+            class="php-email-form"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+          {% csrf_token %}
+            <div class="row">
+              <div class="col-lg-4 col-md-6 form-group">
+                <input
+                  type="text"
+                  name="tableName"
+                  class="form-control"
+                  id="name"
+                  placeholder="Your Name"
+                  data-rule="minlen:4"
+                  data-msg="Please enter at least 4 chars"
+                />
+                <div class="validate"></div>
+              </div>
+              <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                <input
+                  type="email"
+                  class="form-control"
+                  name="tableEmail"
+                  id="email"
+                  placeholder="Your Email"
+                  data-rule="email"
+                  data-msg="Please enter a valid email"
+                />
+                <div class="validate"></div>
+              </div>
+              <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="tablePhone"
+                  id="phone"
+                  placeholder="Your Phone"
+                  data-rule="minlen:4"
+                  data-msg="Please enter at least 4 chars"
+                />
+                <div class="validate"></div>
+              </div>
+              <div class="col-lg-4 col-md-6 form-group mt-3">
+                <input
+                  type="text"
+                  name="date"
+                  class="form-control"
+                  id="date"
+                  placeholder="Date"
+                  data-rule="minlen:4"
+                  data-msg="Please enter at least 4 chars"
+                />
+                <div class="validate"></div>
+              </div>
+              <div class="col-lg-4 col-md-6 form-group mt-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="time"
+                  id="time"
+                  placeholder="Time"
+                  data-rule="minlen:4"
+                  data-msg="Please enter at least 4 chars"
+                />
+                <div class="validate"></div>
+              </div>
+              <div class="col-lg-4 col-md-6 form-group mt-3">
+                <input
+                  type="number"
+                  class="form-control"
+                  name="people"
+                  id="people"
+                  placeholder="# of people"
+                  data-rule="minlen:1"
+                  data-msg="Please enter at least 1 chars"
+                />
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <textarea
+                class="form-control"
+                name="message"
+                rows="5"
+                placeholder="Message"
+              ></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="mb-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">
+                Your booking request was sent. We will call back or send an
+                Email to confirm your reservation. Thank you!
+              </div>
+            </div>
+            <div class="text-center">
+              <button type="submit">Book a Table</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- End Book A Table Section -->
+
+      <!-- ======= Testimonials Section ======= -->
+           <section id="testimonials" class="testimonials section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Testimonials</h2>
+            <p>What they're saying about us</p>
+          </div>
+
+          <div
+            class="testimonials-slider swiper-container"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    culinary gem that seamlessly fuses the best of Indian, Italian, Japanese, and Chinese cuisine. Customers rave about the masterful fusion creations, inviting ambiance, and attentive service. A must-visit for those seeking a diverse and delightful dining experience!
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="{% static 'assets/img/testimonials/testimonials-1.jpg' %}"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Journey is a celebration of flavors from India, Italy, Japan, and China. Customers love the impeccable quality of ingredients, the inventive fusion dishes, and the warm, inviting atmosphere. It's more than a restaurant; it's a tasteful fusion experience
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="{% static 'assets/img/testimonials/testimonials-2.jpg' %}"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Restaurant is a gastronomic delight, skillfully blending the vibrant tastes of Indian, Italian, Japanese, and Chinese cuisines. Patrons praise the diverse menu, top-notch service, and the perfect harmony of flavors. For an unforgettable fusion experience, Desi-licious is the go-to destination.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="{% static 'assets/img/testimonials/testimonials-3.jpg' %}"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    The venue's vibrant ambiance and versatile spaces set the stage for memorable parties. Guests love the unique fusion menu, crafted cocktails, and the seamless coordination by the attentive staff. Desi-licious is our go-to for turning any gathering into a flavorful fiesta!.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="{% static 'assets/img/testimonials/testimonials-4.jpg' %}"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    I applaud Desi-licious Restaurant for offering a unique culinary concept that caters to diverse palates. The fusion of Indian, Italian, Japanese, and Chinese cuisines not only reflects innovation but also captures the essence of global tastes. The restaurant's attention to quality.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="{% static 'assets/img/testimonials/testimonials-5.jpg' %}"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Testimonials Section -->
+
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery" class="gallery">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Gallery</h2>
+            <p>Some photos from Our Restaurant</p>
+          </div>
+        </div>
+
+        <div class="container-fluid gallery-images" data-aos="fade-up" data-aos-delay="100">
+          <div class="row g-0">
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="{% static 'assets/img/gallery/gallery-1.jpg' %}"
+                  class="gallery-lightbox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="{% static 'assets/img/gallery/gallery-1.jpg' %}"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="{% static 'assets/img/gallery/gallery-2.jpg' %}"
+                  class="gallery-lightbox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="{% static 'assets/img/gallery/gallery-2.jpg' %}"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="{% static 'assets/img/gallery/gallery-3.jpg' %}"
+                  class="gallery-lightbox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="{% static 'assets/img/gallery/gallery-3.jpg' %}"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="{% static 'assets/img/gallery/gallery-4.jpg' %}"
+                  class="gallery-lightbox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="{% static 'assets/img/gallery/gallery-4.jpg' %}"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="{% static 'assets/img/gallery/gallery-5.jpg' %}"
+                  class="gallery-lightbox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="{% static 'assets/img/gallery/gallery-5.jpg' %}"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="{% static 'assets/img/gallery/gallery-6.jpg' %}"
+                  class="gallery-lightbox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="{% static 'assets/img/gallery/gallery-6.jpg' %}"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="{% static 'assets/img/gallery/gallery-7.jpg' %}"
+                  class="gallery-lightbox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="{% static 'assets/img/gallery/gallery-7.jpg' %}"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="{% static 'assets/img/gallery/gallery-8.jpg' %}"
+                  class="gallery-lightbox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="{% static 'assets/img/gallery/gallery-8.jpg' %}"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Gallery Section -->
+
+      <!-- ======= Chefs Section ======= -->
+      <section id="chefs" class="chefs">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Chefs</h2>
+            <p>Our Proffesional Chefs</p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                <img
+                  src="{% static 'assets/img/chefs/chefs-1.jpg' %}"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>Walter White</h4>
+                    <span>Master Chef</span>
+                  </div>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="member" data-aos="zoom-in" data-aos-delay="200">
+                <img
+                  src="{% static 'assets/img/chefs/chefs-2.jpg' %}"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>Sarah Jhonson</h4>
+                    <span>Patissier</span>
+                  </div>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="member" data-aos="zoom-in" data-aos-delay="300">
+                <img
+                  src="{% static 'assets/img/chefs/chefs-3.jpg' %}"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>William Anderson</h4>
+                    <span>Cook</span>
+                  </div>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Chefs Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Contact</h2>
+            <p>Contact Us</p>
+          </div>
+        </div>
+
+        <div data-aos="fade-up">
+          <iframe
+            style="border: 0; width: 100%; height: 350px"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.2406663378515!2d77.57858757484411!3d12.892240416613726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1547b5f1fc6d%3A0x75fbdc2a6b92b04a!2sTechCiti%20Technologies%20Private%20Limited!5e0!3m2!1sen!2sin!4v1700727891508!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div class="container" data-aos="fade-up">
+          <div class="row mt-5">
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>
+                    #22, 23,23,24,25/101 , 3rd Floor, BNR Complex, RBI Layout,
+                    JP Nagar 7th Phase, J. P. Nagar, Bengaluru, Karnataka 560078
+                  </p>
+                </div>
+
+                <div class="open-hours">
+                  <i class="bi bi-clock"></i>
+                  <h4>Open Hours:</h4>
+                  <p>
+                    Monday-Saturday:<br />
+                    09:00 AM - 11:00 PM
+                  </p>
+                </div>
+
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>info@desi-licious.com</p>
+                </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+91 6363451047</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-8 mt-5 mt-lg-0">
+              <form
+                action="/"
+                method="post"
+                role="form"
+                class="php-email-form"
+              >
+              {% csrf_token %}
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input
+                      type="text"
+                      name="ContactName"
+                      class="form-control"
+                      id="name"
+                      placeholder="Your Name"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="ContactEmail"
+                      id="email"
+                      placeholder="Your Email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+                <div class="form-group mt-3">
+                  <textarea
+                    class="form-control"
+                    name="ContactMessage"
+                    rows="8"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-info">
+                <h3>DESI-LICIOUS RESTRO-PUB</h3>
+                <p>
+                  #22, 23,23,24,25/101 , 3rd Floor, BNR Complex, RBI Layout, JP
+                  Nagar 7th Phase, J. P. Nagar, Bengaluru, Karnataka 560078<br /><br />
+                  <strong>Phone:</strong> +91 6363451047<br />
+                  <strong>Email:</strong> info@desi-licious.com<br />
+                </p>
+                <div id="social-links-id" class="social-links mt-3">
+                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="#" class="facebook"
+                    ><i class="bx bxl-facebook"></i
+                  ></a>
+                  <a href="#" class="instagram"
+                    ><i class="bx bxl-instagram"></i
+                  ></a>
+                  <a href="#" class="google-plus"
+                    ><i class="bx bxl-skype"></i
+                  ></a>
+                  <a href="#" class="linkedin"
+                    ><i class="bx bxl-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div id="useful-links" class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="index">Home</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#about">About us</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#our-services">Services</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="TermsOfServices">Terms of service</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <div id="our-services" class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Exquisite Dining Experience</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">PUB Atmosphere</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Reservations and Events</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Marketing</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Live Entertainment</a>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              id="subscribe-newsletter"
+              class="col-lg-4 col-md-6 footer-newsletter"
+            >
+              <h4>Our Newsletter</h4>
+              <p>
+                Subscribe to our newsletter for exclusive updates, offers, and
+                news. Join now!
+              </p>
+              <form action="/" method="post">
+                {% csrf_token %}
+                <input type="email" name="subEmail" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
+              </form>
+              <div id="translate" class="translate-google">
+                <div id="google_translate_element"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>DESI-LICIOUS RESTRO-PUB</span></strong
+          >. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
+          <span style="text-align: center;">Designed by: <span style="color: yellow;"> Sneha A, Sowjanya H R, Chetan B R</span></span>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a> -->
+
+    <!-- Vendor JS Files -->
+    <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+    <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+    <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+
+    <!-- Template Main JS File -->
+    <script src="{% static 'assets/js/main.js' %}"></script>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          { pageLanguage: "en" },
+          "google_translate_element"
+        );
+      }
+    </script>
+
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
+  </body>
+</html>
