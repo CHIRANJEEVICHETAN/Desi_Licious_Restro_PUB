@@ -93,3 +93,7 @@ def termsOfServices(request):
 
 def indexLogin(request):
     return render(request,'index_login.html')
+
+
+def ourBranches(request):
+    return render(request,'our_branches.html')
