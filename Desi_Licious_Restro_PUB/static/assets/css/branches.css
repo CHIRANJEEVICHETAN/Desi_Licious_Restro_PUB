@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins:wght@400;600&display=swap");
+
+.Branches-main {
+  position: relative;
+  top: 60px;
+}
+
+.ourBranches {
+  /* bottom: 100px; */
+}
+
+.Image-Branches {
+  border: 3px solid rgb(93, 224, 93);
+}
+
+.Image-Branches:hover {
+  border: 3px solid rgb(255, 255, 255);
+  transform: scale(1.1);
+  transition: all 1s ease;
+}
+
+.Text-Branches {
+  font-size: 25px;
+  font-weight: 700;
+  font-style: oblique;
+  font-family: "Kanit", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.Text-Branches:hover {
+  color: rgb(217, 161, 89);
+}
+
+.Text-Branches-below {
+  font-size: 17px;
+  font-weight: 300;
+  font-style: italic;
+  color: rgb(200, 221, 222);
+}
+
+.Text-Branches-below:hover {
+  color: rgb(255, 255, 255);
+}

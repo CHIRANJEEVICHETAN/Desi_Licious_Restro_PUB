@@ -70,9 +70,13 @@
       href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}"
       rel="stylesheet"
     />
+    
 
     <!-- Template Main CSS File -->
     <link href="{% static 'assets/css/style.css' %}" rel="stylesheet" />
+
+    <!-- Our Branches CSS File  -->
+    <link rel="stylesheet" href="{% static 'assets/css/branches.css' %}">
 
     <link
       rel="stylesheet"
@@ -178,26 +182,32 @@
         data-aos="zoom-in"
         data-aos-delay="100"
       > -->
-    <div class="container-fluid position-relative text-center text-lg-start mt-5">
-    <h1 class="main-text text-center">Our Branches</h1>
+    <div class="container-fluid position-relative text-center text-lg-start mt-5 Branches-main">
+    <h1 class="main-text text-center ourBranches">Our Branches</h1>
     <div class="row mt-5">
-    <div class="col-sm-3 border border-secondary rounded">
-      <p class="text-center">Bannerghatta, Bangalore</p>
-      <img src="{% static '/assets/img/branches/bannerghatta.jpg' %}" class="img-responsive rounded-circle" style="width:100%" alt="Image">
+    <div class="col-sm-3 rounded">
+      <p class="text-center Text-Branches">Bannerghatta, Bangalore</p>
+      <img src="{% static '/assets/img/branches/bannerghatta.jpg' %}" class="img-responsive rounded-circle Image-Branches" style="width:100%" alt="Image">
+      <p class="text-center Text-Branches-below">Welcome to DESI-LICIOUS in Bannerghatta, Bangalore! Experience the vibrant flavors of India in every bite.</p>
     </div>
-    <div class="col-sm-3 border border-secondary rounded"> 
-      <p class="text-center">Electronic City, Bangalore</p>
-      <img src="{% static '/assets/img/branches/electronic-city.jpg' %}" class="img-responsive rounded-circle" style="width:100%" alt="Image">
+    <div class="col-sm-3 rounded"> 
+      <p class="text-center Text-Branches">Electronic City, Bangalore</p>
+      <img src="{% static '/assets/img/branches/electronic-city.jpg' %}" class="img-responsive rounded-circle Image-Branches" style="width:100%" alt="Image">
+      <p class="text-center Text-Branches-below">Welcome to DESI-LICIOUS in Electronic City, Bangalore! Indulge in a fusion of authentic flavors and modern twists.</p>
     </div>
     <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p class="text-center Text-Branches">Marathahalli, Bangalore</p>
+      <img src="{% static '/assets/img/branches/Marathahalli.jpg' %}" class="img-responsive rounded-circle Image-Branches" style="width:100%" alt="Image">
+      <p class="text-center Text-Branches-below">Step into DESI-LICIOUS in Marathahalli, Bangalore, where tradition meets innovation in every dish.</p>
     </div>
     <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p class="text-center Text-Branches">JP Nagar, Bangalore</p>
+      <img src="{% static '/assets/img/branches/JPNagar.jpg' %}" class="img-responsive rounded-circle Image-Branches" style="width:100%" alt="Image">
+      <p class="text-center Text-Branches-below">Welcome to DESI-LICIOUS in JP Nagar, Bangalore! Join us for a culinary adventure that brings the rich tapestry of Indian flavors.</p>
     </div>
     </div>
+    
+    
     </section>
       <!-- </div>
     </div> -->
