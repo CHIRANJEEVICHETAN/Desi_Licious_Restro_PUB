@@ -97,3 +97,6 @@ def indexLogin(request):
 
 def ourBranches(request):
     return render(request,'our_branches.html')
+
+def about(request):
+    return render(request,'about.html')

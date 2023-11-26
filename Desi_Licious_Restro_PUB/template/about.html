@@ -1,0 +1,62 @@
+{% include "navbar.html" %} {% load static %}
+<head>
+  <link rel="stylesheet" href="{% static 'assets/css/about.css' %}" />
+</head>
+<div class="about-top text-center">
+  <h1 class="text-about">About US</h1>
+  <span class="secondary-text">Home / About US</span>
+</div>
+<section id="about" class="about">
+  <div class="container" data-aos="fade-up">
+    <div class="row">
+      <div
+        class="col-lg-6 order-1 order-lg-2"
+        data-aos="zoom-in"
+        data-aos-delay="100"
+      >
+        <div class="about-img">
+          <img src="{% static 'assets/img/about.jpg' %}" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+        <h3>
+          Welcome to Desi-licious Restro-Pub: Your Passport to a World of
+          Deliciousness!
+        </h3>
+        <p class="fst-italic">
+          Explore Desi-licious Restro-Pub, where South Indian, North Indian,
+          Chinese, Japanese, and Italian flavors blend in a modern twist.
+          Immerse yourself in a dining experience of traditional authenticity
+          and innovative delights.
+        </p>
+        <ul>
+          <li>
+            <i class="bi bi-check-circle"></i> Pan-Asian Fusion Delights:
+            Explore a diverse menu, from the richness of North Indian classics
+            to Japanese sushi and South Indian specialties.
+          </li>
+          <li>
+            <i class="bi bi-check-circle"></i> Locally-Sourced Freshness:
+            Experience farm-to-table freshness with locally-sourced ingredients.
+          </li>
+          <li>
+            <i class="bi bi-check-circle"></i> Elegant Ambiance for Every
+            Occasion: Our vibrant and elegant atmosphere is perfect for savoring
+            dim sum, hearty curry, or handmade pasta.
+          </li>
+        </ul>
+        <p>
+          Embark on a global culinary journey at Desi-licious Restro-Pub, where
+          our chefs bring expertise from around the globe. From South Indian
+          dosas to Neapolitan pizzas, each dish is a celebration of global
+          gastronomy. The tantalizing aroma of North Indian spices mixes with
+          the umami notes of Japanese sushi, creating a symphony of flavors.
+          Join us for a delightful fusion of global cuisines in an inviting
+          ambiance.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End About Section -->
+{% include "footer.html" %}

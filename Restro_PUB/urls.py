@@ -9,4 +9,5 @@ urlpatterns = [
     path('TermsOfServices', views.termsOfServices, name='TermsOfServices'),
     path('indexLogin', views.indexLogin, name='indexLogin'),
     path('ourBranches', views.ourBranches, name='ourBranches'),
+    path('about', views.about, name='about'),
 ]
