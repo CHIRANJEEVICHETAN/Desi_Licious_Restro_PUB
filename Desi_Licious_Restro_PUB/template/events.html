@@ -1,0 +1,130 @@
+{% include "navbar.html" %} {% load static %}
+<!-- header section  -->
+<head>
+  <link rel="stylesheet" href="{% static 'assets/css/header.css' %}" />
+</head>
+<div class="about-top text-center">
+  <h1 class="text-about">Events</h1>
+  <span class="secondary-text">...Home / Events</span>
+</div>
+<!-- End of header  -->
+
+      <!-- ======= Events Section ======= -->
+      <section id="events" class="events">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Events</h2>
+            <p>Organize Your Events in our Restaurant</p>
+          </div>
+
+          <div
+            class="events-slider swiper-container"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="row event-item">
+                  <div class="col-lg-6">
+                    <img
+                      src="{% static 'assets/img/event-birthday.jpg' %}"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3>Birthday Parties</h3>
+                    <div class="price">
+                      <p><span>$189</span></p>
+                    </div>
+                    <p class="fst-italic">
+                      Desi-licious Restaurant offers an ideal venue for birthday celebrations, combining authentic Indian cuisine with a festive atmosphere.
+                    </p>
+                    <ul>
+                      <li>
+                        <i class="bi bi-check-circled"></i>The restaurant provides a warm and inviting setting for gatherings, making it a great choice for hosting birthday parties
+                      </li>
+                      <li>
+                        <i class="bi bi-check-circled"></i> With a diverse menu featuring flavorful dishes, attentive staff, and a welcoming ambiance, Desi-licious ensures a memorable and enjoyable celebration for the birthday person and their guests. 
+                      </li>
+                    <p>
+                      Whether you're planning an intimate gathering or a larger party, the restaurant's commitment to authentic flavors and hospitality creates a festive environment that enhances the joy of the occasion.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="row event-item">
+                  <div class="col-lg-6">
+                    <img
+                      src="{% static 'assets/img/event-private.jpg' %}"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3>Private Parties</h3>
+                    <div class="price">
+                      <p><span>$290</span></p>
+                    </div>
+                    <p class="fst-italic">
+                      
+                     Desi-licious Restaurant offers an excellent venue for private parties. The cozy and vibrant atmosphere provides an ideal setting for gatherings, celebrations, and special occasions.
+                    </p>
+                    <ul>
+                      <li>
+                        <i class="bi bi-check-circled"></i>With a diverse menu of authentic Indian cuisine and attentive staff, the restaurant ensures a memorable experience for private events.
+                      </li>
+                      
+                      
+                    </ul>
+                    <p>
+                      Whether it's a birthday celebration, anniversary, or corporate gathering, Desi-licious provides a charming and accommodating space to host your private party, making it a perfect choice for those looking to add a touch of flavor and warmth to their special moments.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="row event-item">
+                  <div class="col-lg-6">
+                    <img
+                      src="{% static 'assets/img/event-custom.jpg' %}"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3>Custom Parties</h3>
+                    <div class="price">
+                      <p><span>$99</span></p>
+                    </div>
+                    <p class="fst-italic">
+                      
+                     Desi-licious Restaurant offers an exceptional experience for custom parties, providing a perfect blend of vibrant ambiance and personalized service
+                    </p>
+                    <ul>
+                      <li>
+                        <i class="bi bi-check-circled"></i> Whether it's a birthday celebration, corporate event, or any special occasion, the restaurant caters to diverse preferences with a tailored menu featuring a variety of authentic Indian dishes. 
+                      </li>
+                      <li>
+                        <i class="bi bi-check-circled"></i> The dedicated staff ensures seamless execution, from customized decorations to accommodating specific dietary preferences
+                      </li>
+                    </ul>
+                    <p>
+                      With its warm atmosphere and flavorful cuisine, Desi-licious Restaurant creates memorable moments for every special gathering, making it an ideal choice for those looking to celebrate in a uniquely desi style.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Events Section -->
+{% include "footer.html" %}

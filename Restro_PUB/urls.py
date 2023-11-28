@@ -10,4 +10,9 @@ urlpatterns = [
     path('indexLogin', views.indexLogin, name='indexLogin'),
     path('ourBranches', views.ourBranches, name='ourBranches'),
     path('about', views.about, name='about'),
+    path('menu', views.menu, name='menu'),
+    path('specials', views.specials, name='specials'),
+    path('events', views.events, name='events'),
+    path('chefs', views.chefs, name='chefs'),
+    path('gallery', views.gallery, name='gallery'),
 ]

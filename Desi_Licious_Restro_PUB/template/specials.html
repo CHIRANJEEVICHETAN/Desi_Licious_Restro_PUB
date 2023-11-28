@@ -1,0 +1,185 @@
+{% include "navbar.html" %} {% load static %}
+<!-- header section  -->
+<head>
+  <link rel="stylesheet" href="{% static 'assets/css/header.css' %}" />
+</head>
+<div class="about-top text-center">
+  <h1 class="text-about">Specials</h1>
+  <span class="secondary-text">...Home / Specials</span>
+</div>
+<!-- End of header  -->
+
+<!-- ======= Specials Section ======= -->
+<section id="specials" class="specials">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Specials</h2>
+      <p>Check Our Specials</p>
+    </div>
+
+    <div class="row" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-3">
+        <ul class="nav nav-tabs flex-column">
+          <li class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1"
+              >Dum Biryani</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-2"
+              >Chicken Tikka Masala</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-3"
+              >Chawanmush</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-4"
+              >Panna Cotta</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-5"
+              >Yangzhou Fried Rice</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-9 mt-4 mt-lg-0">
+        <div class="tab-content">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>Dum Biryani is a traditional and flavorful Indian dish</h3>
+                <p class="fst-italic">
+                  fragrant, long-grain basmati rice combined with marinated
+                  meat, aromatic spices, and herbs.
+                </p>
+                <p>
+                  The dish is cooked in a sealed pot or "dum" (slow-cooking
+                  method), allowing the ingredients to meld together and absorb
+                  the rich flavors. Often garnished with fried onions, mint, and
+                  saffron, Dum Biryani offers a delectable symphony of tastes
+                  and textures in every mouthful.
+                </p>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img
+                  src="{% static 'assets/img/specials1.png' %}"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>Chicken Tikka Masala is a popular and flavorful dish</h3>
+                <p class="fst-italic">
+                  Chicken Tikka Masala features marinated and grilled chunks of
+                  chicken (chicken tikka) served in a creamy and spiced
+                  tomato-based curry sauce (masala).
+                </p>
+                <p>
+                  The chicken is typically marinated in a mixture of yogurt and
+                  various spices, giving it a rich and aromatic flavor. The
+                  curry sauce is made with tomatoes, cream, and a blend of
+                  spices, creating a creamy and mildly spiced dish. It is often
+                  garnished with fresh cilantro and served with rice or naan
+                  bread.
+                </p>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img
+                  src="{% static 'assets/img/specials2.png' %}"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>Chawanmushi is a traditional Japanese dish</h3>
+                <p class="fst-italic">
+                  Chawanmushi is a delicate and silky custard made from a
+                  mixture of beaten eggs, dashi (Japanese broth), soy sauce, and
+                  mirin (sweet rice wine)
+                </p>
+                <p>
+                  The custard is then filled with a variety of ingredients,
+                  often including diced chicken, shrimp, mushrooms, kamaboko
+                  (fish cake), and ginkgo nuts. The entire mixture is steamed
+                  until it sets, resulting in a smooth and velvety texture.
+                </p>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img
+                  src="{% static 'assets/img/specials3.png' %}"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>Panna Cotta is a classic Italian dessert</h3>
+                <p class="fst-italic">
+                  Panna Cotta, which translates to "cooked cream" in Italian, is
+                  a chilled dessert made by simmering together cream, milk,
+                  sugar, and vanilla, and then mixing it with gelatin to set.
+                </p>
+                <p>
+                  The mixture is poured into molds and refrigerated until it
+                  achieves a delicate, silky consistency. It is often served
+                  with a fruit coulis, caramel sauce, or fresh berries.
+                </p>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img
+                  src="{% static 'assets/img/specials4.png' %}"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-5">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>Yangzhou Fried Rice, also known as Yang Chow Fried Rice</h3>
+                <p class="fst-italic">
+                  Yangzhou Fried Rice typically consists of fluffy steamed rice
+                  stir-fried with a variety of ingredients to create a delicious
+                  and visually appealing dish
+                </p>
+                <p>
+                  The key ingredients often include diced vegetables, such as
+                  carrots, peas, and corn, along with protein sources like diced
+                  ham, shrimp, or chicken. The rice is seasoned with soy sauce
+                  and sometimes oyster sauce for added depth of flavor. The dish
+                  is usually garnished with green onions for a fresh finish.
+                </p>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img
+                  src="{% static 'assets/img/specials5.png' %}"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Specials Section -->
+{% include "footer.html" %}

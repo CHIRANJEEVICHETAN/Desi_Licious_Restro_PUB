@@ -100,3 +100,18 @@ def ourBranches(request):
 
 def about(request):
     return render(request,'about.html')
+
+def menu(request):
+    return render(request,'menu.html')
+
+def specials(request):
+    return render(request,'specials.html')
+
+def events(request):
+    return render(request,'events.html')
+
+def chefs(request):
+    return render(request,'chefs.html')
+
+def gallery(request):
+    return render(request,'gallery.html')

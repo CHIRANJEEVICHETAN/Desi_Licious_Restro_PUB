@@ -1,1 +1,773 @@
 {% include "navbar.html" %} {% load static %}
+<!-- header section  -->
+<head>
+  <link rel="stylesheet" href="{% static 'assets/css/header.css' %}" />
+</head>
+<div class="about-top text-center">
+  <h1 class="text-about">Menu</h1>
+  <span class="secondary-text">...Home / Menu</span>
+</div>
+<!-- End of header  -->
+
+<!-- menu section  -->
+<section id="menu" class="menu section-bg">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Menu</h2>
+      <p>Check Our Tasty Menu</p>
+    </div>
+
+    <div class="row" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-12 d-flex justify-content-center">
+        <ul id="menu-flters">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-starters">Starters</li>
+          <li data-filter=".filter-salads">Salads</li>
+          <li data-filter=".filter-specialty">Specialty</li>
+          <li data-filter=".filter-deserts">Desserts</li>
+          <li data-filter=".filter-indian">Indian</li>
+          <li data-filter=".filter-chinese">Chinese</li>
+          <li data-filter=".filter-italian">Italian</li>
+          <li data-filter=".filter-japanese">Japanese</li>
+          <li id="ourBeers" data-filter=".filter-ourbeers">Our Beers</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+      <div class="col-lg-6 menu-item filter-starters">
+        <img
+          src="{% static 'assets/img/menu/nuggets.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content"><a href="#">Nuggets</a><span>$8.3</span></div>
+        <div class="menu-ingredients">
+          crispy exterior and flavourfull,perfectly golden and delicious they
+          provide and delightfull aleternative to traditional chicken nuggets
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-ourbeers">
+        <img
+          src="{% static 'assets/img/menu/beer2.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content"><a href="#">Tuborg</a><span>$7.89</span></div>
+        <div class="menu-ingredients">
+          Tuborg beer is a Danish lager known for its crisp and refreshing taste
+          with a hint of bitterness.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-ourbeers">
+        <img
+          src="{% static 'assets/img/menu/beer1.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content"><a href="#">Stouts</a><span>$8.69</span></div>
+        <div class="menu-ingredients">
+          A strong, rich, and often sweet stout with higher alcohol content.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-ourbeers">
+        <img
+          src="{% static 'assets/img/menu/beer3.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Golden Glory Pilsner</a><span>$8.05</span>
+        </div>
+        <div class="menu-ingredients">
+          Crisp and clean, this golden pilsner is a classic choice for those who
+          appreciate a lighter beer.
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-ourbeers">
+        <img
+          src="{% static 'assets/img/menu/beer4.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Cherry Cascade Sour</a><span>$10.05</span>
+        </div>
+        <div class="menu-ingredients">
+          A puckering delight, this sour beer combines tart cherries with a
+          cascade of refreshing acidity.
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-ourbeers">
+        <img
+          src="{% static 'assets/img/menu/beer5.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">King-fisher</a><span>$9.04</span>
+        </div>
+        <div class="menu-ingredients">
+          Crisp and refreshing, this Indian lager boasts a light maltiness and a
+          subtle hop character, making it a popular choice for easy-drinking
+          moments.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-starters">
+        <img
+          src="{% static 'assets/img/menu/babycorn.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Babycorn Manchurian</a><span>$8.6</span>
+        </div>
+        <div class="menu-ingredients">
+          deep fried to a crisp golden perfection and tossed in a savory and
+          tangy manchurian sauce creating a delightful fusion of textures and
+          taste
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-starters">
+        <img
+          src="{% static 'assets/img/menu/toast.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Shrimp Toast</a><span>$8.6</span>
+        </div>
+        <div class="menu-ingredients">
+          Chinese appetizer featuring a flavorful blend of minced shrimp and
+          seasonings spread on bread, coated in sesame seeds, and deep-fried to
+          golden perfection
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-specialty">
+        <img
+          src="{% static 'assets/img/menu/bread-barrel.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Bread Barrel</a><span>$6.95</span>
+        </div>
+        <div class="menu-ingredients">
+          charming and functional kitchen accessory, providing a stylish storage
+          solution for keeping bread and baked goods fresh while adding a rustic
+          touch to your countertop
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-specialty">
+        <img
+          src="{% static 'assets/img/menu/miso.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Miso-Glazed Salmon Tacos:</a><span>$8</span>
+        </div>
+        <div class="menu-ingredients">
+          A fusion of Japanese and Mexican cuisines, with grilled miso-glazed
+          salmon served in taco shells, topped with cabbage slaw and wasabi
+          mayo.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-starters">
+        <img
+          src="{% static 'assets/img/menu/cake.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Crab Cake</a><span>$7.95</span>
+        </div>
+        <div class="menu-ingredients">
+          A delicate crab cake served on a toasted roll with lettuce and tartar
+          sauce
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-salads">
+        <img
+          src="{% static 'assets/img/menu/caesar.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Caesar Selections</a><span>$8</span>
+        </div>
+        <div class="menu-ingredients">
+          crisp romaine lettuce, garlic-infused croutons, tangy Caesar dressing,
+          and grated Parmesan cheese, creating the classic and timeless Caesar
+          salad experience
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-specialty">
+        <img
+          src="{% static 'assets/img/menu/tuscan-grilled.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Tuscan Grilled</a><span>$9.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Grilled chicken with provolone, artichoke hearts, and roasted red
+          pesto
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-specialty">
+        <img
+          src="{% static 'assets/img/menu/chick.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Chicken Tikka Pizza</a><span>$12</span>
+        </div>
+        <div class="menu-ingredients">
+          Infusing Indian spices into an Italian classic, this pizza features
+          tender chicken tikka pieces, creamy tikka sauce, and traditional pizza
+          toppings.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-starters">
+        <img
+          src="{% static 'assets/img/menu/mozzarella.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Mozzarella Stick</a><span>$4.95</span>
+        </div>
+        <div class="menu-ingredients">
+          golden-fried appetizers featuring strings of gooey mozzarella cheese
+          encased in a crisp and seasoned breadcrumb coating, served with
+          marinara sauce for a delightful combination of textures and flavors
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-starters">
+        <img
+          src="{% static 'assets/img/menu/caponata.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Caponata</a><span>$4.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Sicilian eggplant dish featuring a sweet and sour flavor profile with
+          tomatoes, olives, and capers
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-salads">
+        <img
+          src="{% static 'assets/img/menu/greek-salad.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Greek Salad</a><span>$7.1</span>
+        </div>
+        <div class="menu-ingredients">
+          Refreshing Mediterranean classic featuring crisp cucumbers, juicy
+          tomatoes, briny olives, tangy feta cheese, and red onions, drizzled
+          with extra virgin olive oil and sprinkled with oregano for a burst of
+          vibrant flavors
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-salads">
+        <img
+          src="{% static 'assets/img/menu/kachumbar.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">kachumbar Salad</a><span>$10</span>
+        </div>
+        <div class="menu-ingredients">
+          A light and refreshing Indian salad made with diced cucumbers,
+          tomatoes, onions, and fresh coriander, typically seasoned with salt,
+          pepper, and a squeeze of lemon juice.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-salads">
+        <img
+          src="{% static 'assets/img/menu/spinach-salad.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Spinach Salad</a><span>$7</span>
+        </div>
+        <div class="menu-ingredients">
+          Fresh spinach with mushrooms, hard boiled egg, and warm bacon
+          vinaigrette
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-salads">
+        <img
+          src="{% static 'assets/img/menu/sea.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Seaweed Salad</a><span>$7.1</span>
+        </div>
+        <div class="menu-ingredients">
+          Made from various types of edible seaweed, this salad is often
+          seasoned with soy sauce, sesame oil, and sesame seeds, providing a
+          refreshing and umami-rich experience.
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-salads">
+        <img
+          src="{% static 'assets/img/menu/tri.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Tricolore Salad</a><span>6</span>
+        </div>
+        <div class="menu-ingredients">
+          vibrant Italian classic, combining the luscious trio of avocado, ripe
+          tomatoes, and fresh mozzarella, drizzled with pesto for a colorful and
+          flavorful celebration reminiscent of the Italian flag.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-indian">
+        <img
+          src="{% static 'assets/img/menu/idli.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content"><a href="#">Idli</a><span>$7.95</span></div>
+        <div class="menu-ingredients">
+          fermented rice and urad dal batter, steamed to perfection, resulting
+          in soft, spongy, and nutritious rice cakes, often served with coconut
+          chutney and sambar.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-indian">
+        <img
+          src="{% static 'assets/img/menu/alo gobi.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Alo gobi</a><span>$6.9</span>
+        </div>
+        <div class="menu-ingredients">
+          North Indian dish featuring a comforting blend of potatoes (aloo) and
+          cauliflower (gobi) sautéed with aromatic spices, creating a flavorful
+          and wholesome vegetarian curry.
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-indian">
+        <img
+          src="{% static 'assets/img/menu/masaladose.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Masala Dosa</a><span>$8.9</span>
+        </div>
+        <div class="menu-ingredients">
+          South Indian delicacy featuring a crispy fermented rice and urad dal
+          crepe filled with a spiced potato mixture, typically served with
+          coconut chutney and sambar.
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-indian">
+        <img
+          src="{% static 'assets/img/menu/chole.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Chole bhature</a><span>$6.59</span>
+        </div>
+        <div class="menu-ingredients">
+          North Indian dish featuring spiced chickpeas (chole) served with
+          deep-fried bread (bhature), creating a flavorful and satisfying
+          combination
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-indian">
+        <img
+          src="{% static 'assets/img/menu/pongal.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content"><a href="#">Pongal</a><span>$5</span></div>
+        <div class="menu-ingredients">
+          dish made from a delightful blend of rice and split yellow moong dal,
+          seasoned with ghee, black pepper, cumin seeds, ginger, and garnished
+          with cashews, creating a comforting and flavorful dish.
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-indian">
+        <img
+          src="{% static 'assets/img/menu/paneer.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Paneer Butter Masala</a><span>$9</span>
+        </div>
+        <div class="menu-ingredients">
+          dish featuring cubes of Indian cottage cheese (paneer) cooked in a
+          rich and creamy tomato-based gravy, seasoned with aromatic spices and
+          finished with a touch of butter.
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-indian">
+        <img
+          src="{% static 'assets/img/menu/bisibele.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Bisibele Bath</a><span>$7.8</span>
+        </div>
+        <div class="menu-ingredients">
+          dish made with a unique blend of rice, lentils, vegetables, and
+          aromatic spices, all cooked together to create a delicious and
+          satisfying one-pot meal.
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-indian">
+        <img
+          src="{% static 'assets/img/menu/naan.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Butter Naan</a><span>$6</span>
+        </div>
+        <div class="menu-ingredients">
+          soft and fluffy Indian flatbread, typically leavened and enriched with
+          yogurt, ghee, and butter, offering a deliciously tender texture and a
+          rich, buttery flavor.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-chinese">
+        <img
+          src="{% static 'assets/img/menu/egg(chinese).jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content"><a href="#">Egg rice</a><span>$8</span></div>
+        <div class="menu-ingredients">
+          savory Chinese dish made with stir-fried rice, scrambled eggs, and a
+          flavorful combination of vegetables and soy sauce.
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-chinese">
+        <img
+          src="{% static 'assets/img/menu/springroll(chinese).jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Spring roll</a><span>$8</span>
+        </div>
+        <div class="menu-ingredients">
+          crispy, golden-brown delights, featuring a delicate rice paper or
+          wheat wrapper filled with a savory combination of shrimp or pork,
+          crunchy vegetables, and sometimes vermicelli noodles, offering a
+          delightful blend of textures and flavors.
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-chinese">
+        <img
+          src="{% static 'assets/img/menu/chowmein(chin).jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Chowmein</a><span>$8.5</span>
+        </div>
+        <div class="menu-ingredients">
+          stir-fried noodle dish featuring thin egg noodles tossed with a
+          flavorful mix of vegetables, such as cabbage and carrots, and often
+          combined with a protein like chicken, beef, or shrimp.
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-chinese">
+        <img
+          src="{% static 'assets/img/menu/kungpao(chinese).jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content"><a href="#"> Kungpao</a><span>$8</span></div>
+        <div class="menu-ingredients">
+          featuring tender chicken, crunchy peanuts, and vibrant vegetables
+          stir-fried in a flavorful blend of soy sauce, hoisin sauce, and chili
+          peppers, delivering a perfect balance of sweet, savory, and spicy
+          notes.
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-chinese">
+        <img
+          src="{% static 'assets/img/menu/tofu(chinese).jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content"><a href="#">Tofu</a><span>$8</span></div>
+        <div class="menu-ingredients">
+          featuring soft tofu cubes in a spicy and numbing sauce, traditionally
+          made with minced pork, fermented black beans, chili bean paste, and
+          Sichuan peppercorns.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-italian">
+        <img
+          src="{% static 'assets/img/menu/pizza(italian).jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content"><a href="#">Pizza</a><span>$9.95</span></div>
+        <div class="menu-ingredients">
+          dish characterized by a thin, crispy crust, topped with tomato sauce,
+          fresh mozzarella cheese, and a variety of toppings, baked to
+          perfection in a wood-fired oven
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-italian">
+        <img
+          src="{% static 'assets/img/menu/pasta(italian).jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content"><a href="#">Pasta</a><span>$15</span></div>
+        <div class="menu-ingredients">
+          featuring durum wheat semolina or alternative flours crafted into
+          various shapes and sizes, commonly served with an array of savory
+          sauces, creating a diverse and beloved culinary experience
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-italian">
+        <img
+          src="{% static 'assets/img/menu/risotto(italian).jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content"><a href="#">Risotto</a><span>$12</span></div>
+        <div class="menu-ingredients">
+          Fresh spinach with mushrooms, hard boiled egg, and warm bacon
+          vinaigrette
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-italian">
+        <img
+          src="{% static 'assets/img/menu/soup(italia).jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Minestrone Soup</a><span>$9.5</span>
+        </div>
+        <div class="menu-ingredients">
+          Thick soup of italian origin made with meats,vegetables ad pasta
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-italian">
+        <img
+          src="{% static 'assets/img/menu/salad(italian).jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#"> Summer farro Salad</a><span>$8</span>
+        </div>
+        <div class="menu-ingredients">
+          salad with a vibrant medley of seasonal vegetables, tossed in a zesty
+          vinaigrette.
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-italian">
+        <img
+          src="{% static 'assets/img/menu/calzone(italian).jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content"><a href="#">Calzone</a><span>$10</span></div>
+        <div class="menu-ingredients">
+          folded Italian pizza variant, resembling a stuffed turnover, typically
+          filled with cheese, meats, and vegetables
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-japanese">
+        <img
+          src="{% static 'assets/img/menu/sushi(japa).jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content"><a href="#">Sushi</a><span>$16</span></div>
+        <div class="menu-ingredients">
+          dish characterized by vinegared rice combined with various ingredients
+          such as seafood, vegetables, and occasionally tropical fruits, often
+          served with soy sauce and wasabi
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-japanese">
+        <img
+          src="{% static 'assets/img/menu/tonkatsu(japannese).jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content"><a href="#">Tonkatsu</a><span>$6</span></div>
+        <div class="menu-ingredients">
+          dish featuring breaded and deep-fried pork cutlet, typically served
+          with shredded cabbage and a tangy sauce
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-japanese">
+        <img
+          src="{% static 'assets/img/menu/misosoup(japanese).jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Miso soup</a><span>$10</span>
+        </div>
+        <div class="menu-ingredients">
+          soup characterized by its savory broth, made from fermented soybean
+          paste, and typically containing ingredients like seaweed, tofu, and
+          green onions
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-japanese">
+        <img
+          src="{% static 'assets/img/menu/ramen1(japanese).jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content"><a href="#">Ramen</a><span>$9.95</span></div>
+        <div class="menu-ingredients">
+          featuring Chinese-style wheat noodles served in a flavorful broth,
+          often accompanied by various toppings such as sliced pork, seaweed,
+          and green onions.
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-japanese">
+        <img
+          src="{% static 'assets/img/menu/sukiyaki(japanese).jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Sukiyaki</a><span>$9.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Japanese hot pot dish featuring thinly sliced beef, tofu, vegetables,
+          and noodles cooked in a sweet and savory soy-based broth at the table.
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-deserts">
+        <img
+          src="{% static 'assets/img/menu/apple.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Apple Pie</a><span>$9.95</span>
+        </div>
+        <div class="menu-ingredients">
+          dessert consisting of flaky pastry crust filled with sliced apples,
+          sugar, and spices, typically cinnamon, and often served with a scoop
+          of vanilla ice cream
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-deserts">
+        <img
+          src="{% static 'assets/img/menu/jamun.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Gulab-Jamun</a><span>$9.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Gulab Jamun is a popular Indian sweet consisting of deep-fried
+          milk-solid dumplings soaked in a sugar syrup, creating a delightful
+          and indulgent dessert
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-deserts">
+        <img
+          src="{% static 'assets/img/menu/choco.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Chocolate Brownie</a><span>$10</span>
+        </div>
+        <div class="menu-ingredients">
+          small,square,chocolate cake which is soft in the middle,often with
+          pieces of chocolates or nuts in it.
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-deserts">
+        <img
+          src="{% static 'assets/img/menu/canno.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Cannoli</a><span>$9.95</span>
+        </div>
+        <div class="menu-ingredients">
+          A tube shaped italian dessert that consits of fried pastry dough
+          stuffed with sweet cream.
+        </div>
+      </div>
+      <div class="col-lg-6 menu-item filter-deserts">
+        <img
+          src="{% static 'assets/img/menu/mochi.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content"><a href="#">Mochi</a><span>$11</span></div>
+        <div class="menu-ingredients">
+          it is made of sweet glutinous rice flour or mochigome .Is often tinted
+          with green tea powder
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-specialty">
+        <img
+          src="{% static 'assets/img/menu/lobster-roll.jpg' %}"
+          class="menu-img"
+          alt=""
+        />
+        <div class="menu-content">
+          <a href="#">Lobster Roll</a><span>$12.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Menu Section -->
+{% include "footer.html" %}

@@ -131,13 +131,13 @@
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
             <li><a class="nav-link scrollto active" href="index">Home</a></li>
-            <li><a class="nav-link scrollto" href="index">About</a></li>
-            <li><a class="nav-link scrollto" href="index">Menu</a></li>
-            <li><a class="nav-link scrollto" href="index">Specials</a></li>
-            <li><a class="nav-link scrollto" href="index">Events</a></li>
-            <li><a class="nav-link scrollto" href="index">Chefs</a></li>
-            <li><a class="nav-link scrollto" href="index">Gallery</a></li>
-           <li class="dropdown">
+            <li><a class="nav-link scrollto" href="about">About</a></li>
+            <li><a class="nav-link scrollto" href="menu">Menu</a></li>
+            <li><a class="nav-link scrollto" href="specials">Specials</a></li>
+            <li><a class="nav-link scrollto" href="events">Events</a></li>
+            <li><a class="nav-link scrollto" href="chefs">Chefs</a></li>
+            <li><a class="nav-link scrollto" href="gallery">Gallery</a></li>
+            <li class="dropdown">
               <a href="#"
                 ><span>More</span> <i class="bi bi-chevron-down"></i
               ></a>
@@ -179,7 +179,7 @@
           class="book-a-table-btn scrollto d-none d-lg-flex"
           >Book a table</a
         >
-        <div class="register-btn-logout register-btn">
+         <div class="register-btn-logout register-btn">
           <a class="login-register-btn btn-1" href="index"
             ><button type="button">Logout</button></a
           >
@@ -209,7 +209,7 @@
             <h2>Delivering great food for more than 18 years!</h2>
 
             <div class="btns">
-              <a href="#menu" class="btn-menu animated fadeInUp scrollto"
+              <a href="menu" class="btn-menu animated fadeInUp scrollto"
                 >Our Menu</a
               >
               <a
@@ -379,21 +379,6 @@
                 nuggets
               </div>
             </div>
-            <div class="col-lg-6 menu-item filter-starters">
-              <img
-                src="{% static 'assets/img/menu/babycorn.jpg' %}"
-                class="menu-img"
-                alt=""
-              />
-              <div class="menu-content">
-                <a href="#">Babycorn Manchurian</a><span>$8.6</span>
-              </div>
-              <div class="menu-ingredients">
-                deep fried to a crisp golden perfection and tossed in a savory
-                and tangy manchurian sauce creating a delightful fusion of
-                textures and taste
-              </div>
-            </div>
 
             <div class="col-lg-6 menu-item filter-ourbeers">
               <img
@@ -461,7 +446,23 @@
               <div class="menu-ingredients">
                 Crisp and refreshing, this Indian lager boasts a light maltiness and a subtle hop character, making it a popular choice for easy-drinking moments.
               </div>
+            </div>
 
+            <div class="col-lg-6 menu-item filter-starters">
+              <img
+                src="{% static 'assets/img/menu/babycorn.jpg' %}"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-content">
+                <a href="#">Babycorn Manchurian</a><span>$8.6</span>
+              </div>
+              <div class="menu-ingredients">
+                deep fried to a crisp golden perfection and tossed in a savory
+                and tangy manchurian sauce creating a delightful fusion of
+                textures and taste
+              </div>
+            </div>
             <div class="col-lg-6 menu-item filter-starters">
               <img
                 src="{% static 'assets/img/menu/toast.jpg' %}"
@@ -2023,7 +2024,7 @@
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="#about">About us</a>
+                  <a href="about">About us</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
