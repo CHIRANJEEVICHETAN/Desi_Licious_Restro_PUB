@@ -54,9 +54,9 @@ def index(request):
 def login(request):
     if request.method=="POST":
         un=request.POST['userName']
-        ema=request.POST['emailLogin']
+        #ema=request.POST['emailLogin']
         pwd=request.POST['pass']
-        user=auth.authenticate(username=un,email=ema,password=pwd)
+        user=auth.authenticate(username=un,password=pwd)
         if user is not None:
             auth.login(request,user)
             return redirect('indexLogin')
