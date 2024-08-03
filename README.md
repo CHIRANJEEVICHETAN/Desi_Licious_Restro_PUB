@@ -176,7 +176,7 @@ The main landing page of the website. It includes forms for table booking, conta
 
 ## Report
 
-For more detailed information, please refer to the project report: [Website_Design_For_Restaurant_Application(Deci_Licious_Restro_PUB).pdf](<https://github.com/CHIRANJEEVICHETAN/Desi_Licious_Restro_PUB/blob/main/Desi_Licious_Restro_PUB/static/Report/Website_Design_For_Restaurant_Application(Deci_Licious_Restro_PUB).pdf>)
+For more detailed information, please refer to the project report: [Website_Design_For_Restaurant_Application(Deci_Licious_Restro_PUB).pdf](https://drive.google.com/file/d/177wNUz5s4dmhdgnOcfLR54NQIqQOiL0X/view?usp=sharing)
 
 ## License
 
