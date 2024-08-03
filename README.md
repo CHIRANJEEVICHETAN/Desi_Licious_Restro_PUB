@@ -8,7 +8,6 @@ Deci_Licious_Restro_PUB is a Django-based web application designed for a restaur
 
 - **Deci_Licious_Restro_PUB/**
 
-```markdown
 - `static/`
   - `assets/`
     - `css/`
@@ -74,7 +73,6 @@ Deci_Licious_Restro_PUB is a Django-based web application designed for a restaur
   - `README.md`
   - `.gitignore`
   - `requirements.txt`
-```
 
 ## Installation and Setup
 
