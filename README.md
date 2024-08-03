@@ -1,6 +1,3 @@
-Here's the generated `README.md` file for your project:
-
-````markdown
 # Website Design For Restaurant Application (Deci_Licious_Restro_PUB)
 
 ## Project Overview
@@ -9,6 +6,7 @@ Deci_Licious_Restro_PUB is a Django-based web application designed for a restaur
 
 ## File Structure
 
+```markdown
 - **Deci_Licious_Restro_PUB/**
   - `static/`
     - `assets/`
@@ -75,14 +73,15 @@ Deci_Licious_Restro_PUB is a Django-based web application designed for a restaur
   - `README.md`
   - `.gitignore`
   - `requirements.txt`
+```
 
 ## Installation and Setup
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/yourusername/Deci_Licious_Restro_PUB.git
+   git clone https://github.com/CHIRANJEEVICHETAN/Desi_Licious_Restro_PUB
    ```
-````
 
 2. Navigate to the project directory:
    ```bash
@@ -178,7 +177,7 @@ The main landing page of the website. It includes forms for table booking, conta
 
 ## Report
 
-For more detailed information, please refer to the project report: [Website_Design_For_Restaurant_Application(Deci_Licious_Restro_PUB).pdf](path_to_report.pdf)
+For more detailed information, please refer to the project report: [Website_Design_For_Restaurant_Application(Deci_Licious_Restro_PUB).pdf](<https://github.com/CHIRANJEEVICHETAN/Desi_Licious_Restro_PUB/blob/main/Desi_Licious_Restro_PUB/static/Report/Website_Design_For_Restaurant_Application(Deci_Licious_Restro_PUB).pdf>)
 
 ## License
 
@@ -192,10 +191,8 @@ Special thanks to all contributors and the open-source community.
 
 For any further questions, please contact the project maintainers.
 
-```
-
 # Project Maintainers
+
 Name: [@CHIRANJEEVICHETAN]
 Email: [chiranjeevichetan1998@gmail.com](mailto:chiranjeevichetan1998@gmail.com)
 Phone: +91 6363451047
-```
