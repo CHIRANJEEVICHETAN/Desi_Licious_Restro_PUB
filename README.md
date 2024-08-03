@@ -6,58 +6,59 @@ Deci_Licious_Restro_PUB is a Django-based web application designed for a restaur
 
 ## File Structure
 
-```markdown
 - **Deci_Licious_Restro_PUB/**
-  - `static/`
-    - `assets/`
+
+```markdown
+- `static/`
+  - `assets/`
+    - `css/`
+      - `branches.css`
+      - `header.css`
+      - `style.css`
+    - `js/`
+      - `main.js`
+    - `img/`
+    - `vendor/`
+  - `LOGIN-SIGNUP/`
+    - `Login/`
       - `css/`
-        - `branches.css`
-        - `header.css`
-        - `style.css`
+        - `main.css`
+        - `util.css`
       - `js/`
         - `main.js`
-      - `img/`
+      - `images/`
+      - `fonts/`
       - `vendor/`
-    - `LOGIN-SIGNUP/`
-      - `Login/`
-        - `css/`
-          - `main.css`
-          - `util.css`
-        - `js/`
-          - `main.js`
-        - `images/`
-        - `fonts/`
-        - `vendor/`
-      - `Sign-UP/`
-        - `css/`
-          - `main.css`
-          - `util.css`
-        - `js/`
-          - `main.js`
-        - `images/`
-        - `fonts/`
-        - `vendor/`
-  - `template/`
-    - `about.html`
-    - `chefs.html`
-    - `events.html`
-    - `footer.html`
-    - `gallery.html`
-    - `index_login.html`
-    - `index.html`
-    - `login.html`
-    - `menu.html`
-    - `nav.html`
-    - `navbar.html`
-    - `our_branches.html`
-    - `SignUp.html`
-    - `specials.html`
-    - `TermsOfServices.html`
-  - `__init__.py`
-  - `asgi.py`
-  - `settings.py`
-  - `urls.py`
-  - `wsgi.py`
+    - `Sign-UP/`
+      - `css/`
+        - `main.css`
+        - `util.css`
+      - `js/`
+        - `main.js`
+      - `images/`
+      - `fonts/`
+      - `vendor/`
+- `template/`
+  - `about.html`
+  - `chefs.html`
+  - `events.html`
+  - `footer.html`
+  - `gallery.html`
+  - `index_login.html`
+  - `index.html`
+  - `login.html`
+  - `menu.html`
+  - `nav.html`
+  - `navbar.html`
+  - `our_branches.html`
+  - `SignUp.html`
+  - `specials.html`
+  - `TermsOfServices.html`
+- `__init__.py`
+- `asgi.py`
+- `settings.py`
+- `urls.py`
+- `wsgi.py`
 - **Restro_PUB/**
   - `migrations/`
   - `__init__.py`
